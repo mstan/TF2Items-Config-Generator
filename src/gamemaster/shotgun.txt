@@ -1,0 +1,11 @@
+{
+    "preserve-attributes"   "1"
+    "quality"               "7"
+    "1"                     "134    ;   4"      // unusual effect, community sparkle
+    "2"                     "370    ;   701"    // unusual effect, hot
+    "3"                     "2053   ;   1"      // is festivized
+    "4"                     "2025   ;   1"      // is australium
+    "5"                     "2014   ;   1"      // team sheen
+    "6"                     "2013   ;   2006"   // singularity  
+    "7"                     "2025   ;   3"      // professional killstreak active           
+}

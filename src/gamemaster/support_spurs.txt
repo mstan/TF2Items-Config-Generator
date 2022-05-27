@@ -1,0 +1,6 @@
+{
+    "preserve-attributes"   "0"
+    "quality"               "7"
+    "1"                     "142    ;   9031664" // set item tint rgb | baby blue
+    "2"                     "261    ;   9031664" // set item tint rgb | baby blue
+}

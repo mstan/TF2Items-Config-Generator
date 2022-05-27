@@ -1,0 +1,6 @@
+{
+    "preserve-attributes"   "0"
+    "quality"               "7"
+    "1"                     "134    ;   13"      // unusual effect, burning flames
+    "2"                     "370    ;   29"      // unusual effect, stormy storm
+}

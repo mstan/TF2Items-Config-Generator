@@ -1,0 +1,13 @@
+{
+    "preserve-attributes"   "1"
+    "quality"               "7"
+    "1"                     "134    ;   4"      // unusual effect, community sparkle
+    "2"                     "370    ;   703"    // unusual effect, cool
+    "3"                     "150    ;   1"      // turn to gold
+    "4"                     "542    ;   1"      // item style override, australium
+    "5"                     "2053   ;   1"      // is festivized
+    "6"                     "2025   ;   1"      // is australium
+    "7"                     "2014   ;   6"      // villianous violet sheen
+    "8"                     "2013   ;   2003"   // cerebral discharge 
+    "9"                     "2025   ;   3"      // professional killstreak active
+}

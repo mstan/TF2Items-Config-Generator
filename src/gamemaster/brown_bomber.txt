@@ -1,0 +1,8 @@
+{
+    "preserve-attributes"   "0"
+    "quality"               "7"
+    "1"                     "142    ;   9031664" // set item tint rgb | baby blue
+    "2"                     "261    ;   9031664" // set item tint rgb | baby blue
+    "3"                     "134    ;   99"      // nebula
+    "4"                     "370    ;   91"      // abduction
+}

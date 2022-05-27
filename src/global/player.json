@@ -1,0 +1,40 @@
+{
+	"name": "global",
+	"steamID": "*",
+	"items": {
+		"bat": [
+			{ "name": "Bat",			 "id": 0 },
+			{ "name": "Upgradeable Bat", "id": 190 },
+			{ "name": "Batsaber", 		 "id": 30667}
+		],
+		"rocket_launcher": [
+			{ "name": "Stock Rocket Launcher", 					 "id": 18 },
+			{ "name": "Upgradeable Rocket Launcher", 			 "id": 205 },
+			{ "name": "Festive Rocket Launcher", 				 "id": 658 },
+			{ "name": "Silver Botkiller Rocket Launcher", 		 "id": 800 },
+			{ "name": "Gold Botkiller Rocket Launcher", 		 "id": 809 },
+			{ "name": "Rust Botkiller Rocket Launcher", 		 "id": 889 },
+			{ "name": "Blood Botkiller Rocket Launcher", 		 "id": 898 },
+			{ "name": "Carbon Botkiller Rocket Launcher", 		 "id": 907 },
+			{ "name": "Diamond Botkiller Rocket Launcher", 		 "id": 916 },
+			{ "name": "Silver Botkiller Mk. II Rocket Launcher", "id": 965 },
+			{ "name": "Gold Botkiller Mk. II Rocket Launcher", 	 "id": 974 },
+			{ "name": "Woodland Warrior Rocket Launcher", 	 	 "id": 15006 },
+			{ "name": "Sand Cannon Rocket Launcher", 		 	 "id": 15014 },
+			{ "name": "American Pastoral Rocket Launcher", 	 	 "id": 15028 },
+			{ "name": "Smalltown Bringdown Rocket Launcher", 	 "id": 15043 },
+			{ "name": "Shell Shocker Rocket Launcher", 			 "id": 15052 },
+			{ "name": "Aqua Marine Rocket Launcher", 			 "id": 15057 },
+			{ "name": "Autumn Rocket Launcher", 			 	 "id": 15081 },
+			{ "name": "Blue Mew Rocket Launcher", 			 	 "id": 15104 },
+			{ "name": "Brain Candy Rocket Launcher", 			 "id": 15105 },
+			{ "name": "Coffin Nail Rocket Launcher", 			 "id": 15129 },
+			{ "name": "High Roller Rocket Launcher", 			 "id": 15130 },
+			{ "name": "Warhawk Rocket Launcher", 			 	 "id": 15150 }
+		],
+		"machina": [
+			{ "name": "Machina", 		"id": 526 },
+			{ "name": "Shooting Star",  "id": 30665 }
+		]
+	}
+}

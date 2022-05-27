@@ -1,0 +1,23 @@
+{
+	"name": "Gamemaster", 
+	"steamID": "STEAM_0:0:27384306",
+	"items": {
+		"brown_bomber": [
+			{ "name": "Brown Bomber", "id": "671" }
+		],
+		"saxton_hale": [
+			{ "name": "Saxton Hale", "id": 277 }
+		],
+		"shotgun": [
+			{ "name": "Engineer Shotgun", "id": 7 },
+			{ "name": "Upgradeable Shotgun", "id": 199 }
+		],
+		"support_spurs": [
+			{ "name": "Support Spurs", "id": "30629" }
+		],
+		"wrench": [
+			{ "name": "Stock Wrench", "id": 7 },
+			{ "name": "Upgradeable Wrench", "id": 197 }
+		]
+	} 
+}

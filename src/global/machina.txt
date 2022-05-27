@@ -1,0 +1,10 @@
+{
+    "preserve-attributes"   "0"
+    "quality"               "10"
+    "1"                     "797    ;   1"      // pierces resists
+    "2"                     "138    ;   0.83"   // -17% dmg vs players
+    "3"                     "266    ;   1"      // penetrates players
+    "4"                     "297    ;   1"      // only fire zoomed
+    "5"                     "305    ;   1"      // tracer
+    "6"                     "214    ;   1"      // count strange kills
+}

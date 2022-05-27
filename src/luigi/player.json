@@ -1,0 +1,15 @@
+{
+	"name": "Luigi", 
+	"steamID": "STEAM_0:0:65817896",
+	"items": {
+		"hustlers_hallmark": [
+			{ "name": "Hustler's Hallmark", "id": "146" }
+		],
+		"breakneck_baggies": [
+			{ "name": "Breakneck Baggies", "id": "30068" }
+		],
+		"dead_of_night": [
+			{ "name": "Dead of Night", "id": "30309" }
+		]
+	} 
+}

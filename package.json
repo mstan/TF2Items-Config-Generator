@@ -1,0 +1,17 @@
+{
+  "name": "alt-fortress-generator",
+  "version": "0.0.1",
+  "description": "Alt Fortress config generator",
+  "main": "app.js",
+  "scripts": {
+    "build": "node generate.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Matthew \"Gamemaster\" Stanley",
+  "license": "ISC",
+  "dependencies": {
+    "debug": "^4.3.4",
+    "dotenv": "^16.0.1",
+    "fs-extra": "^10.1.0"
+  }
+}

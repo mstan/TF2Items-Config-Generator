@@ -1,0 +1,5 @@
+{
+    "preserve-attributes"   "1"
+    "quality"               "5"
+    "1"                     "134    ;   117"      // ring of fire
+}

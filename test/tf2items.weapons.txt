@@ -1,0 +1,3282 @@
+"custom_weapons_v3"
+{
+
+	"STEAM_0:0:156191690" // lay
+    {
+        "270"   // Soldier Mask
+        {
+            "preserve-attributes"   "1"
+            "quality"               "5"
+            "1"                     "134    ;   14"      // scorching
+        }
+    }
+    "STEAM_0:0:65817896" // 2uh | To fix: Steam ID
+    {
+        "146"   // Toadstool topper | To fix: Item ID
+        {
+            "preserve-attributes"   "1"
+            "quality"               "5"
+            "1"                     "134    ;   101"      // Mystery to Everyone
+        }
+    }
+    "STEAM_0:0:65817896" // Luigi
+    {
+        "146"   // Hustler's Hallmark
+        {
+            "preserve-attributes"   "1"
+            "quality"               "5"
+            "1"                     "134    ;   117"      // ring of fire
+        }
+        "30068"   // Breakneck Baggies
+        {
+            "preserve-attributes"   "1"
+            "quality"               "5"
+            "1"                     "134    ;   117"      // ring of fire
+        }
+        "30309"   // Dead of Night
+        {
+            "preserve-attributes"   "1"
+            "quality"               "5"
+            "1"                     "134    ;   117"      // ring of fire
+        }
+    }
+    "STEAM_0:0:27384306" // Gamemaster
+    {
+        "7"   // Wrench
+        {
+            "preserve-attributes"   "1"
+            "quality"               "7"
+            "1"                     "134    ;   4"      // unusual effect, community sparkle
+        }
+        "277" // Saxton Hale
+        {
+            "preserve-attributes"   "0"
+            "quality"               "7"
+            "1"                     "134    ;   13"      // unusual effect, burning flames
+            "2"                     "370    ;   29"      // unusual effect, stormy storm
+        }
+        "197" // Upgradeable Wrench
+        {
+            "preserve-attributes"   "1"
+            "quality"               "7"
+            "1"                     "134    ;   4"      // unusual effect, community sparkle
+            "2"                     "370    ;   703"    // unusual effect, cool
+            "3"                     "150    ;   1"      // turn to gold
+            "4"                     "542    ;   1"      // item style override, australium
+            "5"                     "2053   ;   1"      // is festivized
+            "6"                     "2025   ;   1"      // is australium
+            "7"                     "2014   ;   6"      // villianous violet sheen
+            "8"                     "2013   ;   2003"   // cerebral discharge 
+            "9"                     "2025   ;   3"      // professional killstreak active
+        }
+        "199" // Upgradeable Shotgun
+        {
+            "preserve-attributes"   "1"
+            "quality"               "7"
+            "1"                     "134    ;   4"      // unusual effect, community sparkle
+            "2"                     "370    ;   701"    // unusual effect, hot
+            "3"                     "2053   ;   1"      // is festivized
+            "4"                     "2025   ;   1"      // is australium
+            "5"                     "2014   ;   1"      // team sheen
+            "6"                     "2013   ;   2006"   // singularity  
+            "7"                     "2025   ;   3"      // professional killstreak active           
+        }
+        "671" // Brown Bomber
+        {
+            "preserve-attributes"   "0"
+            "quality"               "7"
+            "1"                     "142    ;   9031664" // set item tint rgb | baby blue
+            "2"                     "261    ;   9031664" // set item tint rgb | baby blue
+            "3"                     "134    ;   99"      // nebula
+            "4"                     "370    ;   91"      // abduction
+        }
+        "30629" // Support Spurs
+        {
+            "preserve-attributes"   "0"
+            "quality"               "7"
+            "1"                     "142    ;   9031664" // set item tint rgb | baby blue
+            "2"                     "261    ;   9031664" // set item tint rgb | baby blue
+        }
+    }
+    "*" // Everyone
+    {
+	"0"  // Stock Bat
+	{
+	    "preserve-attributes"   "1"
+	    "1"			    "216    ;  650"		// look velocity on hit
+	    "2"			    "204    ;  1"		// hit self on miss
+	    "3"			    "1	    ;  0.75"	// -25% damage
+	    "4"			    "15     ;  0"		// no random crits
+	}
+	"190" // Upgradeable Bat
+	{
+	    "preserve-attributes"   "1"
+	    "1"			    "216    ;  650"	// look velocity on hit
+	    "2"			    "204    ;  1"	// hit self on miss
+	    "3"			    "1	    ;  0.75"	// -25% damage
+	    "4"			    "15     ;  0"	// no random crits
+	    "5"			    "214    ;  1"	// count strange kills
+	}
+	"30667" // Batsaber
+	{
+	    "preserve-attributes"   "1"
+	    "1"			    "216    ;  650"	// look velocity on hit
+	    "2"			    "204    ;  1"	// hit self on miss
+	    "3"			    "1	    ;  0.75"	// -25% damage
+	    "4"			    "15     ;  0"	// no random crits
+	    "5"			    "214    ;  1"	// count strange kills
+	}
+	"1"  // Stock Bottle
+	{
+	    "preserve-attributes"   "1"
+	    "quality"		    "10"
+	    "1"			    "15	    ;   0"	// no random crits
+	    "2"			    "267    ;   1"	// crit while blast jumping
+	    "3"			    "547    ;   0.65"	// +35% deploy speed
+	    "4"			    "275    ;   1"	// no fall damage
+	    "5"			    "128    ;   1"	// provide on active
+	}
+	"191"  // Bottle (upgradeable)
+	{
+	    "preserve-attributes"   "1"
+	    "quality"		    "10"
+	    "1"			    "15	    ;   0"	// no random crits
+	    "2"			    "267    ;   1"	// crit while blast jumping
+	    "3"			    "547    ;   0.65"	// +35% deploy speed
+	    "4"			    "275    ;   1"	// no fall damage
+	    "5"			    "128    ;   1"	// provide on active
+	    "6"			    "214    ;   1"	// count strange kills
+	}
+	"2"  // Stock Fire Axe
+	{
+	    "preserve-attributes"   "1"
+	    "quality"		    "10"
+	    "1"			    "408    ;   1"	// crit on non burning
+	    "2"			    "1	    ;   0.4"	// -60% dmg
+	    "3"			    "15     ;   0"	// no random crits
+	    "4"			    "208    ;   1"	// ignite on hit
+	}
+	"192"  // Fire Axe (upgradeable)
+	{
+	    "preserve-attributes"   "1"
+	    "quality"		    "10"
+	    "1"			    "408    ;   1"	// crit on non burning
+	    "2"			    "1	    ;   0.4"	// -60% dmg
+	    "3"			    "15     ;   0"	// no random crits
+	    "4"			    "208    ;   1"	// ignite on hit
+	    "5"			    "214    ;   1"	// count strange kills
+	}
+	"3"  // Stock Kukri
+	{
+	    "preserve-attributes"   "1"
+	    "1"			    "107    ;   1.3"	// +30% move speed
+	    "2"			    "128    ;   1"	// provide on active
+	    "3"			    "414    ;   1"	// self mark for death
+	}
+	"193" // Upgradeable Kukri
+	{
+	    "preserve-attributes"   "1"
+	    "1"			    "107    ;   1.3"	// +30% move speed
+	    "2"			    "128    ;   1"	// provide on active
+	    "3"			    "414    ;   1"	// self mark for death
+	    "4"			    "214    ;   1"	// count strange kills
+	}
+	"4"  // Stock Knife
+	{
+	    "preserve-attributes"   "1"
+	    "1"			    "781    ;   1"	// long reach, slow draw
+	    "2"			    "5      ;   1.5"	// 50% longer fire interval
+	}
+	"194"  // Knife (upgradeable)
+	{
+	    "preserve-attributes"   "1"
+	    "1"			    "781    ;   1"	// long reach, slow draw
+	    "2"			    "214    ;   1"	// count strange kills
+	    "3"			    "5      ;   1.5"	// 50% longer fire interval
+	}
+	"638"  // Sharp Dresser
+	{
+	    "preserve-attributes"   "1"
+	    "1"			    "781    ;   1"	// long reach, slow draw
+	    "2"			    "214    ;   1"	// count strange kills
+	    "3"			    "5      ;   1.5"	// 50% longer fire interval
+	}
+	"727"  // Black Rose
+	{
+	    "preserve-attributes"   "1"
+	    "1"			    "781    ;   1"	// long reach, slow draw
+	    "2"			    "214    ;   1"	// count strange kills
+	    "3"			    "5      ;   1.5"	// 50% longer fire interval
+	}
+	"794"  // Botkiller Knife (silver)
+	{
+	    "preserve-attributes"   "1"
+	    "1"			    "781    ;   1"	// long reach, slow draw
+	    "2"			    "214    ;   1"	// count strange kills
+	    "3"			    "5      ;   1.5"	// 50% longer fire interval
+	}
+	"803"  // Botkiller Knife (gold)
+	{
+	    "preserve-attributes"   "1"
+	    "1"			    "781    ;   1"	// long reach, slow draw
+	    "2"			    "214    ;   1"	// count strange kills
+	    "3"			    "5      ;   1.5"	// 50% longer fire interval
+	}
+	"883"  // Botkiller Knife (rust)
+	{
+	    "preserve-attributes"   "1"
+	    "1"			    "781    ;   1"	// long reach, slow draw
+	    "2"			    "214    ;   1"	// count strange kills
+	    "3"			    "5      ;   1.5"	// 50% longer fire interval
+	}
+	"892"  // Botkiller Knife (blood)
+	{
+	    "preserve-attributes"   "1"
+	    "1"			    "781    ;   1"	// long reach, slow draw
+	    "2"			    "214    ;   1"	// count strange kills
+	    "3"			    "5      ;   1.5"	// 50% longer fire interval
+	}
+	"901"  // Botkiller Knife (carbon)
+	{
+	    "preserve-attributes"   "1"
+	    "1"			    "781    ;   1"	// long reach, slow draw
+	    "2"			    "214    ;   1"	// count strange kills
+	    "3"			    "5      ;   1.5"	// 50% longer fire interval
+	}
+	"910"  // Botkiller Knife (diamond)
+	{
+	    "preserve-attributes"   "1"
+	    "1"			    "781    ;   1"	// long reach, slow draw
+	    "2"			    "214    ;   1"	// count strange kills
+	    "3"			    "5      ;   1.5"	// 50% longer fire interval
+	}
+	"959"  // Botkiller Knife (silver 2)
+	{
+	    "preserve-attributes"   "1"
+	    "1"			    "781    ;   1"	// long reach, slow draw
+	    "2"			    "214    ;   1"	// count strange kills
+	    "3"			    "5      ;   1.5"	// 50% longer fire interval
+	}
+	"968"  // Botkiller Knife (gold 2)
+	{
+	    "preserve-attributes"   "1"
+	    "1"			    "781    ;   1"	// long reach, slow draw
+	    "2"			    "214    ;   1"	// count strange kills
+	    "3"			    "5      ;   1.5"	// 50% longer fire interval
+	    "4"			    "214    ;   1"	// count strange kills
+	}
+	"5"  // Stock Fists
+	{
+	    "preserve-attributes"   "1"
+	    "quality"		    "10"
+	    "1"			    "203    ;   1"	// drop health pack on kill
+	    "2"			    "214    ;   1"	// count strange kills
+	    "3"			    "526    ;   1.2"	// +20% healing from all sources
+	    "4"			    "125    ;   -50"	// -50 max health
+	}
+	"195"  // Fists (upgradeable)
+	{
+	    "preserve-attributes"   "1"
+	    "quality"		    "10"
+	    "1"			    "203    ;   1"	// drop health pack on kill
+	    "2"			    "214    ;   1"	// count strange kills
+	    "3"			    "526    ;   1.2"	// +20% healing from all sources
+	    "4"			    "125    ;   -50"	// -50 max health
+	}
+	"587"  // Apoco-Fists
+	{
+	    "preserve-attributes"   "1"
+	    "quality"		    "10"
+	    "1"			    "203    ;   1"	// drop health pack on kill
+	    "2"			    "214    ;   1"	// count strange kills
+	    "3"			    "526    ;   1.2"	// +20% healing from all sources
+	    "4"			    "125    ;   -50"	// -50 max health
+	}
+	"6"  // Stock Shovel
+	{
+	    "preserve-attributes"   "1"
+	    "quality"		    "10"
+	    "1"			    "244    ;   50"	// +50 rage on hit
+	    "2"			    "15     ;   0"	// no random crits
+	    "3"			    "412    ;   1.3"	// +30% dmg taken
+	    "4"			    "128    ;   1"	// provide on active
+	    "5"			    "214    ;   1"	// count strange kills
+	}
+	"196"  // Shovel (upgradeable)
+	{
+	    "preserve-attributes"   "1"
+	    "quality"		    "10"
+	    "1"			    "244    ;   50"	// +50 rage on hit
+	    "2"			    "15     ;   0"	// no random crits
+	    "3"			    "412    ;   1.3"	// +30% dmg taken
+	    "4"			    "128    ;   1"	// provide on active
+	    "5"			    "214    ;   1"	// count strange kills
+	}
+//	"7"  // Wrench (close-range)
+//	{
+//	    "preserve-attributes"   "1"
+//	    "quality"		    "10"
+//	    "1"			    "344    ;   0.3"	// -70% sentry radius
+//	    "2"			    "6      ;   1.15"	// +15% swing speed
+//	    "3"			    "286    ;   1.3"	// +30% building health
+//	    "4"			    "92     ;   1.3"	// +30% construction boost
+//	    "5"			    "107    ;   1.15"	// +15% speed on wearer
+//	    "6"			    "214    ;   3"	// count sentry kills
+//	    "7"			    "293    ;   0"	// count strange kills
+//	}
+	"7" // Stock Wrench
+	{
+	    "preserve-attributes"   "0"
+            "quality"               "10"
+            "1"                     "464    ;   0.5"     // -50% sentry build rate
+            "2"                     "286    ;   1.2"    // +20% building health
+            "3"                     "343    ;   .9"      // +10% sentry fire rate
+			"4"			    "781    ;   1"	// long range, slow deploy
+	}
+	"197"  // Wrench (upgradeable)
+	{
+	    "preserve-attributes"   "0"
+            "quality"               "10"
+            "1"                     "464    ;   0.5"     // -50% sentry build rate
+            "2"                     "286    ;   1.2"    // +20% building health
+            "3"                     "343    ;   .9"      // +10% sentry fire rate
+	    "4"			    "214    ;   3"	// count strange kills
+            "5"                     "293    ;   0"      // count sentry kills
+	    "6"			    "781    ;   1"	// long range, slow deploy
+	}
+	"662"  // Festive Wrench
+	{
+	    "preserve-attributes"   "0"
+            "quality"               "10"
+            "1"                     "464    ;   0.5"     // -50% sentry build rate
+            "2"                     "286    ;   1.2"    // +20% building health
+            "3"                     "343    ;   .9"      // +10% sentry fire rate
+	    "4"			    "214    ;   3"	// count strange kills
+            "5"                     "293    ;   0"      // count sentry kills
+	    "6"			    "781    ;   1"	// long range, slow deploy
+	}
+	"795"  // Botkiller Wrench (silver)
+	{
+	    "preserve-attributes"   "0"
+            "quality"               "10"
+            "1"                     "464    ;   0.5"     // -50% sentry build rate
+            "2"                     "286    ;   1.2"    // +20% building health
+            "3"                     "343    ;   .9"      // +10% sentry fire rate
+	    "4"			    "214    ;   3"	// count strange kills
+            "5"                     "293    ;   0"      // count sentry kills
+	    "6"			    "781    ;   1"	// long range, slow deploy
+	}
+	"804"  // Botkiller Wrench (gold)
+	{
+	    "preserve-attributes"   "0"
+            "quality"               "10"
+            "1"                     "464    ;   0.5"     // -50% sentry build rate
+            "2"                     "286    ;   1.2"    // +20% building health
+            "3"                     "343    ;   .9"      // +10% sentry fire rate
+	    "4"			    "214    ;   3"	// count strange kills
+            "5"                     "293    ;   0"      // count sentry kills
+	    "6"			    "781    ;   1"	// long range, slow deploy
+	}
+	"884"  // Botkiller Wrench (rust)
+	{
+	    "preserve-attributes"   "0"
+            "quality"               "10"
+            "1"                     "464    ;   0.5"     // -50% sentry build rate
+            "2"                     "286    ;   1.2"    // +20% building health
+            "3"                     "343    ;   .9"      // +10% sentry fire rate
+	    "4"			    "214    ;   3"	// count strange kills
+            "5"                     "293    ;   0"      // count sentry kills
+	    "6"			    "781    ;   1"	// long range, slow deploy
+	}
+	"893"  // Botkiller Wrench (blood)
+	{
+	    "preserve-attributes"   "0"
+            "quality"               "10"
+            "1"                     "464    ;   0.5"     // -50% sentry build rate
+            "2"                     "286    ;   1.2"    // +20% building health
+            "3"                     "343    ;   .9"      // +10% sentry fire rate
+	    "4"			    "214    ;   3"	// count strange kills
+            "5"                     "293    ;   0"      // count sentry kills
+	    "6"			    "781    ;   1"	// long range, slow deploy
+	}
+	"902"  // Botkiller Wrench (carbon)
+	{
+	    "preserve-attributes"   "0"
+            "quality"               "10"
+            "1"                     "464    ;   0.5"     // -50% sentry build rate
+            "2"                     "286    ;   1.2"    // +20% building health
+            "3"                     "343    ;   .9"      // +10% sentry fire rate
+	    "4"			    "214    ;   3"	// count strange kills
+            "5"                     "293    ;   0"      // count sentry kills
+	    "6"			    "781    ;   1"	// long range, slow deploy
+	}
+	"911"  // Botkiller Wrench (diamond)
+	{
+	    "preserve-attributes"   "0"
+            "quality"               "10"
+            "1"                     "464    ;   0.5"     // -50% sentry build rate
+            "2"                     "286    ;   1.2"    // +20% building health
+            "3"                     "343    ;   .9"      // +10% sentry fire rate
+	    "4"			    "214    ;   3"	// count strange kills
+            "5"                     "293    ;   0"      // count sentry kills
+	    "6"			    "781    ;   1"	// long range, slow deploy
+	}
+	"960"  // Botkiller Wrench (silver 2)
+	{
+	    "preserve-attributes"   "0"
+            "quality"               "10"
+            "1"                     "464    ;   0.5"     // -50% sentry build rate
+            "2"                     "286    ;   1.2"    // +20% building health
+            "3"                     "343    ;   .9"      // +10% sentry fire rate
+	    "4"			    "214    ;   3"	// count strange kills
+            "5"                     "293    ;   0"      // count sentry kills
+	    "6"			    "781    ;   1"	// long range, slow deploy
+	}
+	"969"  // Botkiller Wrench (gold 2)
+	{
+	    "preserve-attributes"   "0"
+            "quality"               "10"
+            "1"                     "464    ;   0.5"     // -50% sentry build rate
+            "2"                     "286    ;   1.2"    // +20% building health
+            "3"                     "343    ;   .9"      // +10% sentry fire rate
+	    "4"			    "214    ;   3"	// count strange kills
+            "5"                     "293    ;   0"      // count sentry kills
+	    "6"			    "781    ;   1"	// long range, slow deploy
+	}
+	"15074"  // Wrench Harvest skin
+	{
+	    "preserve-attributes"   "1"
+            "quality"               "10"
+            "1"                     "464    ;   0.5"     // -50% sentry build rate
+            "2"                     "286    ;   1.2"    // +20% building health
+            "3"                     "343    ;   .9"      // +10% sentry fire rate
+	    "4"			    "214    ;   3"	// count strange kills
+            "5"                     "293    ;   0"      // count sentry kills
+	    "6"			    "781    ;   1"	// long range, slow deploy
+	}
+	"15114"  // Wrench Torqued to Hell skin
+	{
+	    "preserve-attributes"   "1"
+            "quality"               "10"
+            "1"                     "464    ;   0.5"     // -50% sentry build rate
+            "2"                     "286    ;   1.2"    // +20% building health
+            "3"                     "343    ;   .9"      // +10% sentry fire rate
+	    "4"			    "214    ;   3"	// count strange kills
+            "5"                     "293    ;   0"      // count sentry kills
+	    "6"			    "781    ;   1"	// long range, slow deploy
+	}
+	"8" // Stock Bonesaw
+        {
+            "preserve-attributes"   "1"
+            "quality"               "10"
+            "1"                     "525    ;   1.5"    // 50% increase in push force
+	    "2"			    "812    ;   2"	// +100% air control
+	    "3"			    "640    ;   1"	// parachute
+	}
+	"198" // Bonesaw (upgradeable)
+	{
+	    "preserve-attributes"   "1"
+	    "quality"		    "10"
+	    "1"			    "525    ;   1.5"	// 50% increase in push force
+	    "2"			    "214    ;   1"	// count strange kills
+	    "3"			    "812    ;   2"	// +100% air control
+	    "4"			    "640    ;   1"	// parachute
+	}
+	"1143" // Festive Bonesaw
+        {
+            "preserve-attributes"   "1"
+            "quality"               "10"
+            "1"                     "525    ;   1.5"    // 50% increase in push force
+	    "2"			    "214    ;   1"	// count strange kills
+	    "3"			    "812    ;   2"	// +100% air control
+	    "4"			    "640    ;   1"	// parachute
+	}
+	"9"  // Engineer Shotgun
+	{
+	    "preserve-attributes"   "1"
+	    "1"			    "324    ;   1.5"	// +50% damage on consecutive shot
+	    "2"			    "1	    ;   0.8"	// -20% dmg
+	}
+	"10"  // Soldier Shotgun
+	{
+	    "preserve-attributes"   "1"
+	    "1"			    "324    ;   1.5"	// +50% damage on consecutive shot
+	    "2"			    "1	    ;   0.8"	// -20% dmg
+	}
+	"11"  // Heavy Shotgun
+	{
+	    "preserve-attributes"   "1"
+	    "1"			    "324    ;   1.5"	// +50% damage on consecutive shot
+	    "2"			    "1	    ;   0.8"	// -20% dmg
+	}
+	"12"  // Pyro Shotgun
+	{
+	    "preserve-attributes"   "1"
+	    "1"			    "324    ;   1.5"	// +50% damage on consecutive shot
+	    "2"			    "1	    ;   0.8"	// -20% dmg
+	}
+	"199"  // Upgradeable Shotgun
+	{
+	    "preserve-attributes"   "1"
+	    "1"			    "324    ;   1.5"	// +50% damage on consecutive shot
+	    "2"			    "1	    ;   0.8"	// -20% dmg
+	}
+	"1141"  // Festive Shotgun
+	{
+	    "preserve-attributes"   "1"
+	    "1"			    "324    ;   1.33"	// +33% damage on consecutive shot
+	    "2"			    "1	    ;   0.8"	// -20% dmg
+	}
+	"13" // Stock Scattergun
+	{
+	    "preserve-attributes"   "1"
+	    "quality"		    "10"
+	    "1"			    "44    ;   1"	// knockback on target + shooter
+	    "2"			    "3	    ;   0.66"	// -34% clip size
+	    "3"			    "214    ;   1"	// count strange kills
+	    "4"			    "97     ;   0.75"	// compensate for weird reload
+	}
+	"200" // Scattergun (upgradeable)
+	{
+	    "preserve-attributes"   "1"
+	    "quality"		    "10"
+	    "1"			    "44    ;   1"	// knockback on target + shooter
+	    "2"			    "3	    ;   0.66"	// -34% clip size
+	    "3"			    "214    ;   1"	// count strange kills
+	    "4"			    "97     ;   0.75"	// compensate for weird reload
+	}
+	"669" // Festive Scattergun
+	{
+	    "preserve-attributes"   "1"
+	    "quality"		    "10"
+	    "1"			    "44    ;   1"	// knockback on target + shooter
+	    "2"			    "3	    ;   0.66"	// -34% clip size
+	    "3"			    "214    ;   1"	// count strange kills
+	    "4"			    "97     ;   0.75"	// compensate for weird reload
+	}
+	"799" // Botkiller Scattergun (silver)
+	{
+	    "preserve-attributes"   "1"
+	    "quality"		    "10"
+	    "1"			    "44    ;   1"	// knockback on target + shooter
+	    "2"			    "3	    ;   0.66"	// -34% clip size
+	    "3"			    "214    ;   1"	// count strange kills
+	    "4"			    "97     ;   0.75"	// compensate for weird reload
+	}
+	"808" // Botkiller Scattergun (gold)
+	{
+	    "preserve-attributes"   "1"
+	    "quality"		    "10"
+	    "1"			    "44    ;   1"	// knockback on target + shooter
+	    "2"			    "3	    ;   0.66"	// -34% clip size
+	    "3"			    "214    ;   1"	// count strange kills
+	    "4"			    "97     ;   0.75"	// compensate for weird reload
+	}
+	"888" // Botkiller Scattergun (rust)
+	{
+	    "preserve-attributes"   "1"
+	    "quality"		    "10"
+	    "1"			    "44    ;   1"	// knockback on target + shooter
+	    "2"			    "3	    ;   0.66"	// -34% clip size
+	    "3"			    "214    ;   1"	// count strange kills
+	    "4"			    "97     ;   0.75"	// compensate for weird reload
+	}
+	"897" // Botkiller Scattergun (blood)
+	{
+	    "preserve-attributes"   "1"
+	    "quality"		    "10"
+	    "1"			    "44    ;   1"	// knockback on target + shooter
+	    "2"			    "3	    ;   0.66"	// -34% clip size
+	    "3"			    "214    ;   1"	// count strange kills
+	    "4"			    "97     ;   0.75"	// compensate for weird reload
+	}
+	"906" // Botkiller Scattergun (carbon)
+	{
+	    "preserve-attributes"   "1"
+	    "quality"		    "10"
+	    "1"			    "44    ;   1"	// knockback on target + shooter
+	    "2"			    "3	    ;   0.66"	// -34% clip size
+	    "3"			    "214    ;   1"	// count strange kills
+	    "4"			    "97     ;   0.75"	// compensate for weird reload
+	}
+	"915" // Botkiller Scattergun (diamond)
+	{
+	    "preserve-attributes"   "1"
+	    "quality"		    "10"
+	    "1"			    "44    ;   1"	// knockback on target + shooter
+	    "2"			    "3	    ;   0.66"	// -34% clip size
+	    "3"			    "214    ;   1"	// count strange kills
+	    "4"			    "97     ;   0.75"	// compensate for weird reload
+	}
+	"964" // Botkiller Scattergun (silver 2)
+	{
+	    "preserve-attributes"   "1"
+	    "quality"		    "10"
+	    "1"			    "44    ;   1"	// knockback on target + shooter
+	    "2"			    "3	    ;   0.66"	// -34% clip size
+	    "3"			    "214    ;   1"	// count strange kills
+	    "4"			    "97     ;   0.75"	// compensate for weird reload
+	}
+	"973" // Botkiller Scattergun (gold 2)
+	{
+	    "preserve-attributes"   "1"
+	    "quality"		    "10"
+	    "1"			    "44    ;   1"	// knockback on target + shooter
+	    "2"			    "3	    ;   0.66"	// -34% clip size
+	    "3"			    "214    ;   1"	// count strange kills
+	    "4"			    "97     ;   0.75"	// compensate for weird reload
+	}
+	"15002" // Night Terror Scattergun skin
+	{
+	    "preserve-attributes"   "1"
+	    "quality"		    "10"
+	    "1"			    "44    ;   1"	// knockback on target + shooter
+	    "2"			    "3	    ;   0.66"	// -34% clip size
+	    "3"			    "214    ;   1"	// count strange kills
+	    "4"			    "97     ;   0.75"	// compensate for weird reload
+	}
+	"15029" // Backcountry Blaster Scattergun skin
+	{
+	    "preserve-attributes"   "1"
+	    "quality"		    "10"
+	    "1"			    "44    ;   1"	// knockback on target + shooter
+	    "2"			    "3	    ;   0.66"	// -34% clip size
+	    "3"			    "214    ;   1"	// count strange kills
+	    "4"			    "97     ;   0.75"	// compensate for weird reload
+	}
+	"14" // Stock Sniper Rifle
+	{
+	    "preserve-attributes"   "1"
+	    "quality"		    "10"
+	    "1"			    "54     ;   0.9"	// -10% speed
+	    "2"			    "91     ;   0.5"	// -50% charge rate
+	    "3"			    "390    ;   1.15"	// +15% headshot dmg
+	    "4"			    "297    ;   1"	// only fire zoomed
+	    "5"			    "392    ;   0.85"	// -15% dmg bodyshot
+	    "6"			    "214    ;   1"	// count strange kills
+	    "7"			    "444    ;   1.5"	// 1.5x head size
+	}
+//	"14" // Sniper Rifle [airblast]
+//	{
+//	    "preserve-attributes"   "1"
+//	    "1"			    "522    ;   1"	// airblast on hit
+//	    "2"			    "1	    ;   0.9"	// -10% dmg penalty
+//	    "3"			    "214    ;   1"	// count strange kills
+//	}
+	"201" // Sniper Rifle (upgradeable)
+	{
+	    "preserve-attributes"   "1"
+	    "quality"		    "10"
+	    "1"			    "54     ;   0.9"	// -10% speed
+	    "2"			    "91     ;   0.5"	// -50% charge rate
+	    "3"			    "390    ;   1.15"	// +15% headshot dmg
+	    "4"			    "297    ;   1"	// only fire zoomed
+	    "5"			    "392    ;   0.85"	// -15% dmg bodyshot
+	    "6"			    "214    ;   1"	// count strange kills
+	    "7"			    "444    ;   1.5"	// 1.5x head size
+	}
+	"664" // Festive Sniper Rifle
+	{
+	    "preserve-attributes"   "1"
+	    "quality"		    "10"
+	    "1"			    "54     ;   0.9"	// -10% speed
+	    "2"			    "91     ;   0.5"	// -50% charge rate
+	    "3"			    "390    ;   1.15"	// +15% headshot dmg
+	    "4"			    "297    ;   1"	// only fire zoomed
+	    "5"			    "392    ;   0.85"	// -15% dmg bodyshot
+	    "6"			    "214    ;   1"	// count strange kills
+	    "7"			    "444    ;   1.5"	// 1.5x head size
+	}
+	"851" // AWPer Hand
+	{
+	    "preserve-attributes"   "1"
+	    "quality"		    "10"
+	    "1"			    "54     ;   0.9"	// -10% speed
+	    "2"			    "91     ;   0.5"	// -50% charge rate
+	    "3"			    "390    ;   1.15"	// +15% headshot dmg
+	    "4"			    "297    ;   1"	// only fire zoomed
+	    "5"			    "392    ;   0.85"	// -15% dmg bodyshot
+	    "6"			    "214    ;   1"	// count strange kills
+	    "7"			    "444    ;   2"	// 2x head size		
+	}
+	"792" // Botkiller Sniper Rifle (silver)
+	{
+	    "preserve-attributes"   "1"
+	    "quality"		    "10"
+	    "1"			    "54     ;   0.9"	// -10% speed
+	    "2"			    "91     ;   0.5"	// -50% charge rate
+	    "3"			    "390    ;   1.15"	// +15% headshot dmg
+	    "4"			    "297    ;   1"	// only fire zoomed
+	    "5"			    "392    ;   0.85"	// -15% dmg bodyshot
+	    "6"			    "214    ;   1"	// count strange kills
+	    "7"			    "444    ;   1.5"	// 1.5x head size
+	}
+	"801" // Botkiller Sniper Rifle (gold)
+	{
+	    "preserve-attributes"   "1"
+	    "quality"		    "10"
+	    "1"			    "54     ;   0.9"	// -10% speed
+	    "2"			    "91     ;   0.5"	// -50% charge rate
+	    "3"			    "390    ;   1.15"	// +15% headshot dmg
+	    "4"			    "297    ;   1"	// only fire zoomed
+	    "5"			    "392    ;   0.85"	// -15% dmg bodyshot
+	    "6"			    "214    ;   1"	// count strange kills
+	    "7"			    "444    ;   1.5"	// 1.5x head size
+	}
+	"881" // Botkiller Sniper Rifle (rust)
+	{
+	    "preserve-attributes"   "1"
+	    "quality"		    "10"
+	    "1"			    "54     ;   0.9"	// -10% speed
+	    "2"			    "91     ;   0.5"	// -50% charge rate
+	    "3"			    "390    ;   1.15"	// +15% headshot dmg
+	    "4"			    "297    ;   1"	// only fire zoomed
+	    "5"			    "392    ;   0.85"	// -15% dmg bodyshot
+	    "6"			    "214    ;   1"	// count strange kills
+	    "7"			    "444    ;   1.5"	// 1.5x head size
+	}
+	"890" // Botkiller Sniper Rifle (blood)
+	{
+	    "preserve-attributes"   "1"
+	    "quality"		    "10"
+	    "1"			    "54     ;   0.9"	// -10% speed
+	    "2"			    "91     ;   0.5"	// -50% charge rate
+	    "3"			    "390    ;   1.15"	// +15% headshot dmg
+	    "4"			    "297    ;   1"	// only fire zoomed
+	    "5"			    "392    ;   0.85"	// -15% dmg bodyshot
+	    "6"			    "214    ;   1"	// count strange kills
+	    "7"			    "444    ;   1.5"	// 1.5x head size
+	}
+	"899" // Botkiller Sniper Rifle (carbon)
+	{
+	    "preserve-attributes"   "1"
+	    "quality"		    "10"
+	    "1"			    "54     ;   0.9"	// -10% speed
+	    "2"			    "91     ;   0.5"	// -50% charge rate
+	    "3"			    "390    ;   1.15"	// +15% headshot dmg
+	    "4"			    "297    ;   1"	// only fire zoomed
+	    "5"			    "392    ;   0.85"	// -15% dmg bodyshot
+	    "6"			    "214    ;   1"	// count strange kills
+	    "7"			    "444    ;   1.5"	// 1.5x head size
+	}
+	"908" // Botkiller Sniper Rifle (diamond)
+	{
+	    "preserve-attributes"   "1"
+	    "quality"		    "10"
+	    "1"			    "54     ;   0.9"	// -10% speed
+	    "2"			    "91     ;   0.5"	// -50% charge rate
+	    "3"			    "390    ;   1.15"	// +15% headshot dmg
+	    "4"			    "297    ;   1"	// only fire zoomed
+	    "5"			    "392    ;   0.85"	// -15% dmg bodyshot
+	    "6"			    "214    ;   1"	// count strange kills
+	    "7"			    "444    ;   1.5"	// 1.5x head size
+	}
+	"957" // Botkiller Sniper Rifle (silver 2)
+	{
+	    "preserve-attributes"   "1"
+	    "quality"		    "10"
+	    "1"			    "54     ;   0.9"	// -10% speed
+	    "2"			    "91     ;   0.5"	// -50% charge rate
+	    "3"			    "390    ;   1.15"	// +15% headshot dmg
+	    "4"			    "297    ;   1"	// only fire zoomed
+	    "5"			    "392    ;   0.85"	// -15% dmg bodyshot
+	    "6"			    "214    ;   1"	// count strange kills
+	    "7"			    "444    ;   1.5"	// 1.5x head size
+	}
+	"966" // Botkiller Sniper Rifle (gold 2)
+	{
+	    "preserve-attributes"   "1"
+	    "quality"		    "10"
+	    "1"			    "54     ;   0.9"	// -10% speed
+	    "2"			    "91     ;   0.5"	// -50% charge rate
+	    "3"			    "390    ;   1.15"	// +15% headshot dmg
+	    "4"			    "297    ;   1"	// only fire zoomed
+	    "5"			    "392    ;   0.85"	// -15% dmg bodyshot
+	    "6"			    "214    ;   1"	// count strange kills
+	    "7"			    "444    ;   1.5"	// 1.5x head size
+	}
+	"15000" // Night Owl sniper rifle skin
+	{
+	    "preserve-attributes"   "1"
+	    "quality"		    "10"
+	    "1"			    "54     ;   0.9"	// -10% speed
+	    "2"			    "91     ;   0.5"	// -50% charge rate
+	    "3"			    "390    ;   1.15"	// +15% headshot dmg
+	    "4"			    "297    ;   1"	// only fire zoomed
+	    "5"			    "392    ;   0.85"	// -15% dmg bodyshot
+	    "6"			    "214    ;   1"	// count strange kills
+	    "7"			    "444    ;   1.5"	// 1.5x head size	
+	}
+//	"15" // Minigun [Rage]
+//	{
+//	    "preserve-attributes"   "1"
+//	    "quality"		    "10"
+//	    "1"			    "375    ;   1"	// knockback rage - takes huge damage to charge
+//	    "2"			    "214    ;   1"	// count strange kills
+//	}
+	"15" // Stock Minigun
+	{
+	    "preserve-attributes"   "1"
+	    "quality"		    "10"
+	    "1"			    "45     ;   0.5"	// -50% bullets per shot
+	    "2"			    "6      ;   0.5"	// +100% fire rate
+	    "3"			    "76     ;   2"	// +100% ammo
+	    "4"			    "214    ;   1"	// count strange kills
+	}
+	"202" // Minigun (upgradeable)
+	{
+	    "preserve-attributes"   "1"
+	    "quality"		    "10"
+	    "1"			    "45     ;   0.5"	// -50% bullets per shot
+	    "2"			    "6      ;   0.5"	// +100% fire rate
+	    "3"			    "76     ;   2"	// +100% ammo
+	    "4"			    "214    ;   1"	// count strange kills
+	}
+	"298" // Iron Curtain
+	{
+	    "preserve-attributes"   "1"
+	    "quality"		    "10"
+	    "1"			    "45     ;   0.5"	// -50% bullets per shot
+	    "2"			    "6      ;   0.5"	// +100% fire rate
+	    "3"			    "76     ;   2"	// +100% ammo
+	    "4"			    "214    ;   1"	// count strange kills
+	}
+	"654" // Festive Minigun
+	{
+	    "preserve-attributes"   "1"
+	    "quality"		    "10"
+	    "1"			    "45     ;   0.5"	// -50% bullets per shot
+	    "2"			    "6      ;   0.5"	// +100% fire rate
+	    "3"			    "76     ;   2"	// +100% ammo
+	    "4"			    "214    ;   1"	// count strange kills
+	}
+	"793" // Botkiller Minigun (silver)
+	{
+	    "preserve-attributes"   "1"
+	    "quality"		    "10"
+	    "1"			    "45     ;   0.5"	// -50% bullets per shot
+	    "2"			    "6      ;   0.5"	// +100% fire rate
+	    "3"			    "76     ;   2"	// +100% ammo
+	    "4"			    "214    ;   1"	// count strange kills
+	}
+	"802" // Botkiller Minigun (gold)
+	{
+	    "preserve-attributes"   "1"
+	    "quality"		    "10"
+	    "1"			    "45     ;   0.5"	// -50% bullets per shot
+	    "2"			    "6      ;   0.5"	// +100% fire rate
+	    "3"			    "76     ;   2"	// +100% ammo
+	    "4"			    "214    ;   1"	// count strange kills
+	}
+	"882" // Botkiller Minigun (rust)
+	{
+	    "preserve-attributes"   "1"
+	    "quality"		    "10"
+	    "1"			    "45     ;   0.5"	// -50% bullets per shot
+	    "2"			    "6      ;   0.5"	// +100% fire rate
+	    "3"			    "76     ;   2"	// +100% ammo
+	    "4"			    "214    ;   1"	// count strange kills
+	}
+	"891" // Botkiller Minigun (blood)
+	{
+	    "preserve-attributes"   "1"
+	    "quality"		    "10"
+	    "1"			    "45     ;   0.5"	// -50% bullets per shot
+	    "2"			    "6      ;   0.5"	// +100% fire rate
+	    "3"			    "76     ;   2"	// +100% ammo
+	    "4"			    "214    ;   1"	// count strange kills
+	}
+	"900" // Botkiller Minigun (carbon)
+	{
+	    "preserve-attributes"   "1"
+	    "1"			    "45     ;   0.5"	// -50% bullets per shot
+	    "2"			    "6      ;   0.5"	// +100% fire rate
+	    "3"			    "76     ;   2"	// +100% ammo
+	    "4"			    "214    ;   1"	// count strange kills
+	}
+	"909" // Botkiller Minigun (diamond)
+	{
+	    "preserve-attributes"   "1"
+	    "quality"		    "10"
+	    "1"			    "45     ;   0.5"	// -50% bullets per shot
+	    "2"			    "6      ;   0.5"	// +100% fire rate
+	    "3"			    "76     ;   2"	// +100% ammo
+	    "4"			    "214    ;   1"	// count strange kills
+	}
+	"958" // Botkiller Minigun (silver 2)
+	{
+	    "preserve-attributes"   "1"
+	    "quality"		    "10"
+	    "1"			    "45     ;   0.5"	// -50% bullets per shot
+	    "2"			    "6      ;   0.5"	// +100% fire rate
+	    "3"			    "76     ;   2"	// +100% ammo
+	    "4"			    "214    ;   1"	// count strange kills
+	}
+	"967" // Botkiller Minigun (gold 2)
+	{
+	    "preserve-attributes"   "1"
+	    "quality"		    "10"
+	    "1"			    "45     ;   0.5"	// -50% bullets per shot
+	    "2"			    "6      ;   0.5"	// +100% fire rate
+	    "3"			    "76     ;   2"	// +100% ammo
+	    "4"			    "214    ;   1"	// count strange kills
+	}
+	"15055" // Brick House minigun skin
+	{
+	    "preserve-attributes"   "1"
+	    "quality"		    "10"
+	    "1"			    "45     ;   0.5"	// -50% bullets per shot
+	    "2"			    "6      ;   0.5"	// +100% fire rate
+	    "3"			    "76     ;   2"	// +100% ammo
+	    "4"			    "214    ;   1"	// count strange kills
+	}
+	"16" // Stock SMG
+	{
+	    "preserve-attributes"   "1"
+	    "1"			    "2	    ;   1.1"	// +10% dmg
+	    "2"			    "3	    ;   0.2"	// -80% clip size
+	    "3"			    "5	    ;   5"	// -80% fire rate
+	    "4"			    "25	    ;   0.33"	// -66% ammo carried
+	    "5"			    "45     ;   5"	// 5 bullets shot
+	    "6"			    "214    ;   1"	// count strange kills
+	    "7"			    "36     ;   3"	// -200% accuracy
+	}
+	"203" // SMG (upgradeable)
+	{
+	    "preserve-attributes"   "1"
+	    "1"			    "2	    ;   1.1"	// +10% dmg
+	    "2"			    "3	    ;   0.2"	// -80% clip size
+	    "3"			    "5	    ;   5"	// -80% fire rate
+	    "4"			    "25	    ;   0.33"	// -66% ammo carried
+	    "5"			    "45     ;   5"	// 5 bullets shot
+	    "6"			    "214    ;   1"	// count strange kills
+	    "7"			    "36     ;   3"	// -200% accuracy
+	}
+	"15153" // Blitzkrieg SMG skin
+	{
+	    "preserve-attributes"   "1"
+	    "1"			    "2	    ;   1.1"	// +10% dmg
+	    "2"			    "3	    ;   0.2"	// -80% clip size
+	    "3"			    "5	    ;   5"	// -80% fire rate
+	    "4"			    "25	    ;   0.33"	// -66% ammo carried
+	    "5"			    "45     ;   5"	// 5 bullets shot
+	    "6"			    "214    ;   1"	// count strange kills
+	    "7"			    "36     ;   3"	// -200% accuracy
+	}
+	"17" // Stock Syringe Gun
+	{
+	    "preserve-attributes"   "1"
+	    "1"			    "484    ;   1"	// mad milk syringes
+	    "2"			    "1	    ;   .6"	// -40% dmg
+	}
+	"204" // Syringe Gun upgradeable
+	{
+	    "preserve-attributes"   "1"
+	    "1"			    "484    ;   1"	// mad milk syringes
+	    "2"			    "1	    ;   .6"	// -40% dmg
+	    "3"			    "214    ;   1"	// count strange kills
+	}
+//	"18" // Stock Rocket Launcher
+//	{
+//	    "preserve-attributes"   "1"
+//	    "quality"		    "10"
+//	    "1"			    "6      ;   0.5"	// +50% fire speed
+//	    "2"			    "1      ;   0.85"	// -15% dmg
+//	    "3"			    "97     ;   0.7"	// 30% faster reload
+//	    "4"			    "3      ;   0.5"	// -50% clip
+//	    "5"			    "214    ;   1"	// count strange kills
+//	}
+	"18" // Rocket Launcher rage alt
+	{
+	    "preserve-attributes"   "1"
+	    "1"			    "245    ;   1.4"	// up to +40% dmg at full rage
+	    "2"			    "1	    ;   0.85"	// -15% dmg
+	    "3"			    "243    ;   -7"	// -7% rage on hit
+	}
+	"205" // Rocket Launcher (upgradeable)
+	{
+	    "preserve-attributes"   "1"
+	    "1"			    "245    ;   1.4"	// up to +40% dmg at full rage
+	    "2"			    "1	    ;   0.85"	// -15% dmg
+	    "3"			    "243    ;   -7"	// -7% rage on hit
+	    "4"			    "214    ;   1"	// count strange kills
+	}
+	"658" // Festive Rocket Launcher
+	{
+	    "preserve-attributes"   "1"
+	    "1"			    "245    ;   1.4"	// up to +40% dmg at full rage
+	    "2"			    "1	    ;   0.85"	// -15% dmg
+	    "3"			    "243    ;   -7"	// -7% rage on hit
+	    "4"			    "214    ;   1"	// count strange kills
+	}
+	"800" // Botkiller Rocket Launcher (silver)
+	{
+	    "preserve-attributes"   "1"
+	    "1"			    "245    ;   1.4"	// up to +40% dmg at full rage
+	    "2"			    "1	    ;   0.85"	// -15% dmg
+	    "3"			    "243    ;   -7"	// -7% rage on hit
+	    "4"			    "214    ;   1"	// count strange kills
+	}
+	"809" // Botkiller Rocket Launcher (gold)
+	{
+	    "preserve-attributes"   "1"
+	    "1"			    "245    ;   1.4"	// up to +40% dmg at full rage
+	    "2"			    "1	    ;   0.85"	// -15% dmg
+	    "3"			    "243    ;   -7"	// -7% rage on hit
+	    "4"			    "214    ;   1"	// count strange kills
+	}
+	"889" // Botkiller Rocket Launcher (rust)
+	{
+	    "preserve-attributes"   "1"
+	    "1"			    "245    ;   1.4"	// up to +40% dmg at full rage
+	    "2"			    "1	    ;   0.85"	// -15% dmg
+	    "3"			    "243    ;   -7"	// -7% rage on hit
+	    "4"			    "214    ;   1"	// count strange kills
+	}
+	"898" // Botkiller Rocket Launcher (blood)
+	{
+	    "preserve-attributes"   "1"
+	    "1"			    "245    ;   1.4"	// up to +40% dmg at full rage
+	    "2"			    "1	    ;   0.85"	// -15% dmg
+	    "3"			    "243    ;   -7"	// -7% rage on hit
+	    "4"			    "214    ;   1"	// count strange kills
+	}
+	"907" // Botkiller Rocket Launcher (carbon)
+	{
+	    "preserve-attributes"   "1"
+	    "1"			    "245    ;   1.4"	// up to +40% dmg at full rage
+	    "2"			    "1	    ;   0.85"	// -15% dmg
+	    "3"			    "243    ;   -7"	// -7% rage on hit
+	    "4"			    "214    ;   1"	// count strange kills
+	}
+	"916" // Botkiller Rocket Launcher (diamond)
+	{
+	    "preserve-attributes"   "1"
+	    "1"			    "245    ;   1.4"	// up to +40% dmg at full rage
+	    "2"			    "1	    ;   0.85"	// -15% dmg
+	    "3"			    "243    ;   -7"	// -7% rage on hit
+	    "4"			    "214    ;   1"	// count strange kills
+	}
+	"965" // Botkiller Rocket Launcher (silver 2)
+	{
+	    "preserve-attributes"   "1"
+	    "1"			    "245    ;   1.4"	// up to +40% dmg at full rage
+	    "2"			    "1	    ;   0.85"	// -15% dmg
+	    "3"			    "243    ;   -7"	// -7% rage on hit
+	    "4"			    "214    ;   1"	// count strange kills
+	}
+	"974" // Botkiller Rocket Launcher (gold 2)
+	{
+	    "preserve-attributes"   "1"
+	    "1"			    "245    ;   1.4"	// up to +40% dmg at full rage
+	    "2"			    "1	    ;   0.85"	// -15% dmg
+	    "3"			    "243    ;   -7"	// -7% rage on hit
+	    "4"			    "214    ;   1"	// count strange kills
+	}
+	"15028" // American Pastoral Rocket Launcher skin
+	{
+	    "preserve-attributes"   "1"
+	    "1"			    "245    ;   1.4"	// up to +40% dmg at full rage
+	    "2"			    "1	    ;   0.85"	// -15% dmg
+	    "3"			    "243    ;   -7"	// -7% rage on hit
+	    "4"			    "214    ;   1"	// count strange kills
+	}
+	"15057" // Rocket Launcher Aqua Marine skin
+	{
+	    "preserve-attributes"   "1"
+	    "1"			    "245    ;   1.4"	// up to +40% dmg at full rage
+	    "2"			    "1	    ;   0.85"	// -15% dmg
+	    "3"			    "243    ;   -7"	// -7% rage on hit
+	    "4"			    "214    ;   1"	// count strange kills
+	}
+//	"15057" // !!'s Nuke Rocket Launcher (Aqua Marine)
+//	{
+//	    "preserve-attributes"   "1"
+//	    "1"			    "521    ;   1"	// large smoke cloud
+//	    "2"			    "3	    ;   0.25"	// -75% clip size
+//	    "3"			    "99     ;   2"	// +100% blast radius
+//	    "4"			    "2	    ;   4"	// +300% damage
+//	    "5"			    "421    ;   1"	// no ammo from dispensers
+//	    "6"			    "77     ;   0"	// no ammo reserve
+//	    "7"			    "207    ;   2"	// +100% dmg to self
+//	    "8"			    "104    ;   0.33"	// -66% projectile speed
+//	    "9"			    "118    ;   0.25"	// maximum falloff -25%
+//	}
+	"19" // Stock Grenade Launcher
+	{
+	    "preserve-attributes"   "1"
+	    "1"			    "99     ;   1.15"	// +15% blast radius
+	    "2"			    "684    ;   1.25"	// +25% dmg on time det
+	    "3"			    "102    ;   0.75"	// -25% projectile range
+	    "4"			    "117    ;   1.1"	// +50% dmg at edge of blast
+	    "5"			    "1	    ;   0.8"	// -20% dmg
+	}
+	"206" // Grenade Launcher (upgradeable)
+	{
+	    "preserve-attributes"   "1"
+	    "1"			    "99     ;   1.15"	// +15% blast radius
+	    "2"			    "684    ;   1.25"	// +25% dmg on time det
+	    "3"			    "102    ;   0.75"	// -25% projectile range
+	    "4"			    "117    ;   1.1"	// +50% dmg at edge of blast
+	    "5"			    "1	    ;   0.8"	// -20% dmg
+	    "6"			    "214    ;   1"	// count strange kills
+	}
+	"1007" // Festive Grenade Launcher
+	{
+	    "preserve-attributes"   "1"
+	    "1"			    "99     ;   1.15"	// +15% blast radius
+	    "2"			    "684    ;   1.25"	// +25% dmg on time det
+	    "3"			    "102    ;   0.75"	// -25% projectile range
+	    "4"			    "117    ;   1.1"	// +50% dmg at edge of blast
+	    "5"			    "1	    ;   0.8"	// -20% dmg
+	    "6"			    "214    ;   1"	// count strange kills
+	}
+	"20" // Stock Stickybomb Launcher
+	{
+	    "preserve-attributes"   "1"
+	    "quality"		    "10"
+	    "1"			    "135    ;   0.75"	// -25% sticky jump dmg
+	    "2"			    "99     ;   1.1"	// +10% blast radius
+	    "3"			    "89     ;   -2"	// -2 pipes out
+	    "4"			    "3	    ;   0.75"	// -25% clip size
+	}
+//	"20" // Stickybomb Launcher alt
+//	{
+//	    "preserve-attributes"   "1"
+//	    "1"			    "89     ;   -7"	// -7 bombs out
+//	    "2"			    "97     ;   0.75"	// +25% reload speed
+//	    "3"			    "6      ;   0.8"	// +20% fire speed
+//	    "4"			    "670    ;   0.5"	// +50% charge rate
+//	    "5"			    "100    ;   0.9"	// -10% blast radius
+//	}
+	"207" // Stickybomb Launcher (upgradeable)
+	{
+	    "preserve-attributes"   "1"
+	    "quality"		    "10"
+	    "1"			    "135    ;   0.75"	// -25% sticky jump dmg
+	    "2"			    "99     ;   1.1"	// +10% blast radius
+	    "3"			    "89     ;   -2"	// -2 bombs out
+	    "4"			    "3	    ;   0.75"	// -25% clip size
+	    "5"			    "214    ;   1"	// count strange kills
+	}
+	"661" // Festive Stickybomb Launcher
+	{
+	    "preserve-attributes"   "1"
+	    "quality"		    "10"
+	    "1"			    "135    ;   0.75"	// -25% sticky jump dmg
+	    "2"			    "99     ;   1.1"	// +10% blast radius
+	    "3"			    "89     ;   -2"	// -2 pipes out
+	    "4"			    "3	    ;   0.75"	// -25% clip size
+	    "5"			    "214    ;   1"	// count strange kills
+	}
+	"797" // Botkiller Stickybomb Launcher (silver)
+	{
+	    "preserve-attributes"   "1"
+	    "quality"		    "10"
+	    "1"			    "135    ;   0.75"	// -25% sticky jump dmg
+	    "2"			    "99     ;   1.1"	// +10% blast radius
+	    "3"			    "89     ;   -2"	// -2 pipes out
+	    "4"			    "3	    ;   0.75"	// -25% clip size
+	    "5"			    "214    ;   1"	// count strange kills
+	}
+	"806" // Botkiller Stickybomb Launcher (gold)
+	{
+	    "preserve-attributes"   "1"
+	    "quality"		    "10"
+	    "1"			    "135    ;   0.75"	// -25% sticky jump dmg
+	    "2"			    "99     ;   1.1"	// +10% blast radius
+	    "3"			    "89     ;   -2"	// -2 pipes out
+	    "4"			    "3	    ;   0.75"	// -25% clip size
+	    "5"			    "214    ;   1"	// count strange kills
+	}
+	"886" // Botkiller Stickybomb Launcher (rust)
+	{
+	    "preserve-attributes"   "1"
+	    "quality"		    "10"
+	    "1"			    "135    ;   0.75"	// -25% sticky jump dmg
+	    "2"			    "99     ;   1.1"	// +10% blast radius
+	    "3"			    "89     ;   -2"	// -2 pipes out
+	    "4"			    "3	    ;   0.75"	// -25% clip size
+	    "5"			    "214    ;   1"	// count strange kills
+	}
+	"895" // Botkiller Stickybomb Launcher (blood)
+	{
+	    "preserve-attributes"   "1"
+	    "quality"		    "10"
+	    "1"			    "135    ;   0.75"	// -25% sticky jump dmg
+	    "2"			    "99     ;   1.1"	// +10% blast radius
+	    "3"			    "89     ;   -2"	// -2 pipes out
+	    "4"			    "3	    ;   0.75"	// -25% clip size
+	    "5"			    "214    ;   1"	// count strange kills
+	}
+	"904" // Botkiller Stickybomb Launcher (carbon)
+	{
+	    "preserve-attributes"   "1"
+	    "quality"		    "10"
+	    "1"			    "135    ;   0.75"	// -25% sticky jump dmg
+	    "2"			    "99     ;   1.1"	// +10% blast radius
+	    "3"			    "89     ;   -2"	// -2 pipes out
+	    "4"			    "3	    ;   0.75"	// -25% clip size
+	    "5"			    "214    ;   1"	// count strange kills
+	}
+	"913" // Botkiller Stickybomb Launcher (diamond)
+	{
+	    "preserve-attributes"   "1"
+	    "quality"		    "10"
+	    "1"			    "135    ;   0.75"	// -25% sticky jump dmg
+	    "2"			    "99     ;   1.1"	// +10% blast radius
+	    "3"			    "89     ;   -2"	// -2 pipes out
+	    "4"			    "3	    ;   0.75"	// -25% clip size
+	    "5"			    "214    ;   1"	// count strange kills
+	}
+	"962" // Botkiller Stickybomb Launcher (silver 2)
+	{
+	    "preserve-attributes"   "1"
+	    "quality"		    "10"
+	    "1"			    "135    ;   0.75"	// -25% sticky jump dmg
+	    "2"			    "99     ;   1.1"	// +10% blast radius
+	    "3"			    "89     ;   -2"	// -2 pipes out
+	    "4"			    "3	    ;   0.75"	// -25% clip size
+	    "5"			    "214    ;   1"	// count strange kills
+	}
+	"971" // Botkiller Stickybomb Launcher (gold 2)
+	{
+	    "preserve-attributes"   "1"
+	    "quality"		    "10"
+	    "1"			    "135    ;   0.75"	// -25% sticky jump dmg
+	    "2"			    "99     ;   1.1"	// +10% blast radius
+	    "3"			    "89     ;   -2"	// -2 pipes out
+	    "4"			    "3	    ;   0.75"	// -25% clip size
+	    "5"			    "214    ;   1"	// count strange kills
+	}
+	"21" // Stock Flamethrower
+	{
+	    "preserve-attributes"   "1"
+	    "quality"		    "10"
+	    "1"			    "839    ;   25"	// 25 degree flame spread
+	    "2"			    "843    ;   10"	// flame drag
+	    "3"			    "214    ;   1"	// count strange kills
+	}
+	"208" // Flamethrower (upgradeable)
+	{
+	    "preserve-attributes"   "1"
+	    "quality"		    "10"
+	    "1"			    "839    ;   25"	// 25 degree flame spread
+	    "2"			    "843    ;   10"	// flame drag
+	    "3"			    "214    ;   1"	// count strange kills
+	}
+	"659" // Festive Flamethrower
+	{
+	    "preserve-attributes"   "1"
+	    "quality"		    "10"
+	    "1"			    "839    ;   25"	// 25 degree flame spread
+	    "2"			    "843    ;   10"	// flame drag
+	    "3"			    "214    ;   1"	// count strange kills
+	}
+	"798" // Botkiller Flamethrower (silver)
+	{
+	    "preserve-attributes"   "1"
+	    "quality"		    "10"
+	    "1"			    "839    ;   25"	// 25 degree flame spread
+	    "2"			    "843    ;   10"	// flame drag
+	    "3"			    "214    ;   1"	// count strange kills
+	}
+	"807" // Botkiller Flamethrower (gold)
+	{
+	    "preserve-attributes"   "1"
+	    "quality"		    "10"
+	    "1"			    "839    ;   25"	// 25 degree flame spread
+	    "2"			    "843    ;   10"	// flame drag
+	    "3"			    "214    ;   1"	// count strange kills
+	}
+	"887" // Botkiller Flamethrower (rust)
+	{
+	    "preserve-attributes"   "1"
+	    "quality"		    "10"
+	    "1"			    "839    ;   25"	// 25 degree flame spread
+	    "2"			    "843    ;   10"	// flame drag
+	    "3"			    "214    ;   1"	// count strange kills
+	}
+	"896" // Botkiller Flamethrower (blood)
+	{
+	    "preserve-attributes"   "1"
+	    "quality"		    "10"
+	    "1"			    "839    ;   25"	// 25 degree flame spread
+	    "2"			    "843    ;   10"	// flame drag
+	    "3"			    "214    ;   1"	// count strange kills
+	}
+	"905" // Botkiller Flamethrower (carbon)
+	{
+	    "preserve-attributes"   "1"
+	    "quality"		    "10"
+	    "1"			    "839    ;   25"	// 25 degree flame spread
+	    "2"			    "843    ;   10"	// flame drag
+	    "3"			    "214    ;   1"	// count strange kills
+	}
+	"914" // Botkiller Flamethrower (diamond)
+	{
+	    "preserve-attributes"   "1"
+	    "quality"		    "10"
+	    "1"			    "839    ;   25"	// 25 degree flame spread
+	    "2"			    "843    ;   10"	// flame drag
+	    "3"			    "214    ;   1"	// count strange kills
+	}
+	"963" // Botkiller Flamethrower (silver 2)
+	{
+	    "preserve-attributes"   "1"
+	    "quality"		    "10"
+	    "1"			    "839    ;   25"	// 25 degree flame spread
+	    "2"			    "843    ;   10"	// flame drag
+	    "3"			    "214    ;   1"	// count strange kills
+	}
+	"972" // Botkiller Flamethrower (gold 2)
+	{
+	    "preserve-attributes"   "1"
+	    "quality"		    "10"
+	    "1"			    "839    ;   25"	// 25 degree flame spread
+	    "2"			    "843    ;   10"	// flame drag
+	    "3"			    "214    ;   1"	// count strange kills
+	}
+	"30474" // Nostromo Napalmer
+	{
+	    "preserve-attributes"   "1"
+	    "quality"		    "10"
+	    "1"			    "839    ;   25"	// 25 degree flame spread
+	    "2"			    "843    ;   10"	// flame drag
+	    "3"			    "214    ;   1"	// count strange kills
+	}
+	"15054" // Turbine Torcher flamethrower skin
+	{
+	    "preserve-attributes"   "1"
+	    "quality"		    "10"
+	    "1"			    "839    ;   25"	// 25 degree flame spread
+	    "2"			    "843    ;   10"	// flame drag
+	    "3"			    "214    ;   1"	// count strange kills
+	}
+	"22" // Scout Stock Pistol
+	{
+	    "preserve-attributes"   "1"
+	    "quality"		    "10"
+	    "1"			    "280    ;   5"	// shoots syringes
+	    "2"			    "4      ;   2"	// +100% clip size
+	    "3"			    "78     ;   2"	// +100% ammo carried
+	    "4"			    "214    ;   1"	// count strange kills
+	}
+	"23" // Engie Stock Pistol
+	{
+	    "preserve-attributes"   "1"
+	    "quality"		    "10"
+	    "1"			    "280    ;   5"	// shoots syringes
+	    "2"			    "4      ;   2"	// +100% clip size
+	    "3"			    "78     ;   2"	// +100% ammo carried
+	    "4"			    "214    ;   1"	// count strange kills
+	}
+	"209" // Pistol (upgradeable)
+	{
+	    "preserve-attributes"   "1"
+	    "quality"		    "10"
+	    "1"			    "280    ;   5"	// shoots syringes
+	    "2"			    "4      ;   2"	// +100% clip size
+	    "3"			    "78     ;   2"	// +100% ammo carried
+	    "4"			    "214    ;   1"	// count strange kills
+	}
+	"160" // Lugermorph
+	{
+	    "preserve-attributes"   "1"
+	    "quality"		    "10"
+	    "1"			    "280    ;   5"	// shoots syringes
+	    "2"			    "4      ;   2"	// +100% clip size
+	    "3"			    "78     ;   2"	// +100% ammo carried
+	    "4"			    "214    ;   1"	// count strange kills
+	}
+	"30666" // CAPPER
+	{
+	    "preserve-attributes"   "1"
+	    "quality"		    "10"
+	    "1"			    "280    ;   5"	// shoots syringes
+	    "2"			    "4      ;   2"	// +100% clip size
+	    "3"			    "78     ;   2"	// +100% ammo carried
+	    "4"			    "214    ;   1"	// count strange kills
+	}
+	"15148" // Blitzkrieg Pistol skin
+	{
+	    "preserve-attributes"   "1"
+	    "quality"		    "10"
+	    "1"			    "280    ;   5"	// shoots syringes
+	    "2"			    "4      ;   2"	// +100% clip size
+	    "3"			    "78     ;   2"	// +100% ammo carried
+	    "4"			    "214    ;   1"	// count strange kills
+	}
+//	"24" // Stock Revolver
+//	{
+//	    "preserve-attributes"   "1"
+//	    "quality"		    "10"
+//	    "1"			    "280    ;   5"	// shoot syringes
+//	    "2"			    "3      ;   0.5"	// -50% clip size
+//	    "3"			    "1      ;   0.4"	// -60% dmg
+//	    "4"			    "218    ;   1"	// mark for death on hit
+//	    "5"			    "214    ;   1"	// count strange kills
+//	}
+//	"210" // Revolver (upgradeable)
+//	{
+//	    "preserve-attributes"   "1"
+//	    "quality"		    "10"
+//	    "1"			    "280    ;   5"	// shoot syringes
+//	    "2"			    "3      ;   0.5"	// -50% clip size
+//	    "3"			    "1      ;   0.4"	// -60% dmg
+//	    "4"			    "218    ;   1"	// mark for death on hit
+//	    "5"			    "214    ;   1"	// count strange kills
+//	}
+	"210" // Revolver smoke alt
+	{
+	    "preserve-attributes"   "1"
+	    "quality"		    "10"
+	    "1"			    "280    ;   17"	// shoot cannonballs
+	    "2"			    "3      ;   0.16"	// -84% clip size
+	    "3"			    "1      ;   0.4"	// -60% dmg
+	    "4"			    "521    ;   1"	// smoke cloud
+	    "5"			    "851    ;   1.12"	// +12% move speed on active
+	    "6"			    "787    ;   0.75"	// -25% fuse time
+	    "7"			    "25     ;   0.08"	// -92% max ammo hidden
+	    "8"			    "96     ;   1.5"	// +50% reload time
+	    "9"			    "214    ;   1"	// count strange kills
+	}
+	"161" // Big Kill
+	{
+	    "preserve-attributes"   "1"
+	    "quality"		    "10"
+	    "1"			    "280    ;   17"	// shoot cannonballs
+	    "2"			    "3      ;   0.16"	// -84% clip size
+	    "3"			    "1      ;   0.4"	// -60% dmg
+	    "4"			    "521    ;   1"	// smoke cloud
+	    "5"			    "851    ;   1.12"	// +12% move speed on active
+	    "6"			    "787    ;   0.75"	// -25% fuse time
+	    "7"			    "25     ;   0.08"	// -92% max ammo hidden
+	    "8"			    "96     ;   1.5"	// +50% reload time
+	    "9"			    "214    ;   1"	// count strange kills
+	}
+	"1142" // Festive Revolver
+	{
+	    "preserve-attributes"   "1"
+	    "quality"		    "10"
+	    "1"			    "280    ;   17"	// shoot cannonballs
+	    "2"			    "3      ;   0.16"	// -84% clip size
+	    "3"			    "1      ;   0.4"	// -60% dmg
+	    "4"			    "521    ;   1"	// smoke cloud
+	    "5"			    "851    ;   1.12"	// +12% move speed on active
+	    "6"			    "787    ;   0.75"	// -25% fuse time
+	    "7"			    "25     ;   0.08"	// -92% max ammo hidden
+	    "8"			    "96     ;   1.5"	// +50% reload time
+	    "9"			    "214    ;   1"	// count strange kills
+	}
+	"15042" // Mayor Revolver
+	{
+	    "preserve-attributes"   "1"
+	    "quality"		    "10"
+	    "1"			    "280    ;   17"	// shoot cannonballs
+	    "2"			    "3      ;   0.16"	// -84% clip size
+	    "3"			    "1      ;   0.4"	// -60% dmg
+	    "4"			    "521    ;   1"	// smoke cloud
+	    "5"			    "851    ;   1.12"	// +12% move speed on active
+	    "6"			    "787    ;   0.75"	// -25% fuse time
+	    "7"			    "25     ;   0.08"	// -92% max ammo hidden
+	    "8"			    "96     ;   1.5"	// +50% reload time
+	    "9"			    "214    ;   1"	// count strange kills
+	}
+        "36" // Blutsauger
+        {
+            "preserve-attributes"   "0"
+            "quality"               "10"
+            "1"                     "17     ;   .02"    // +2% ubercharge on hit
+            "2"                     "3      ;   .5"     // -50% clip size penalty
+            "3"                     "214    ;   1"      // kill eater | count strange kills 
+        }
+        "35" // Kritzkrieg
+        {
+            "preserve-attributes"   "0"
+            "quality"               "10"
+            "1"                     "739    ;   .9"     // 10% slower build on overhealed patients
+            "2"                     "18     ;   1"      // ubercharge is kritzkrieg
+            "3"                     "10     ;   1.30"   // 30% faster build rate on patients
+            "4"                     "214    ;   2"      // kill eater | count assists
+            "5"                     "293    ;   1"      // kill eater 2 | count ubercharge
+        }
+        "37" // Ubersaw
+        {
+            "preserve-attributes"   "0"
+            "1"                     "17     ;   -.1"    // -10 ubercharge on hit
+            "2"                     "2      ;   1.4"    // +40% damage bonus
+            "3"                     "214    ;   1"      // kill eater | count strange kills 
+        }
+        "1003" // Festive Ubersaw
+        {
+            "preserve-attributes"   "0"
+            "quality"               "10"
+            "1"                     "17     ;   -.1"    // -10 ubercharge on hit
+            "2"                     "2      ;   1.4"    // +40% damage bonus
+            "3"                     "214    ;   1"      // kill eater | count strange kills 
+        }
+        "38" // Axtinguisher
+        {
+            "preserve-attributes"   "0"
+            "quality"               "10"
+            "1"                     "20    ;   1"      // crit vs burning
+            "2"                     "77     ;   .5"     // -50% primary max ammo
+            "3"                     "214    ;   1"      // kill eater | count strange kills 
+        }
+        "1000" // Festive Axtinguisher
+        {
+            "preserve-attributes"   "0"
+            "quality"               "10"
+            "1"                     "209    ;   1"      // minicrit vs burning
+            "2"                     "77     ;   .5"     // -50% primary max ammo
+            "3"                     "214    ;   1"      // kill eater | count strange kills 
+        }
+	"39" // Flare Gun
+	{
+	    "preserve-attributes"   "1"
+	    "1"			    "119    ;    0.6"	// +40% holster speed
+	    "2"			    "547    ;    0.6"	// +40% deploy time
+	}
+	"1081" // Festive Flare Gun
+	{
+	    "preserve-attributes"   "1"
+	    "1"			    "119    ;    0.6"	// +40% holster speed
+	    "2"			    "547    ;    0.6"	// +40% deploy time
+	}
+        "40" // Backburner
+        {
+            "preserve-attributes"   "1" 		// must preserve. bugged otherwise
+            "quality"               "10"                
+            "1"                     "838    ;   1"      // flame particles bounce off surfaces
+            "2"                     "837    ;   1.5"    // +50% reflected flame length
+            "3"                     "256    ;   2"    // +100% airblast refire time
+            "4"                     "24     ;   1"      // mod flames back crit
+            "5"                     "170    ;   1"      // airblast cost
+            "6"                     "859    ;   2"      // reflect count
+            "7"                     "214    ;   1"      // count strange kills 
+            "8"                     "257    ;   -1.5"   // airblast pushes enemies down
+	    "9"			    "144    ;   2"	// alt flame particles
+        }
+        "1146" // Festive Backburner
+        {
+            "preserve-attributes"   "1" 
+            "quality"               "10"                // must preserve. bugged otherwise.
+            "1"                     "838    ;   1"      // flame particles bounce off surfaces
+            "2"                     "837    ;   1.5"    // +50% reflected flame length bonus
+            "3"                     "256    ;   2"    // +100% airblast refire time penalty
+            "4"                     "24     ;   1"      // mod flames back crit
+            "5"                     "170    ;   1"      // airblast cost
+            "6"                     "859    ;   2"      // flames reflect count
+            "7"                     "214    ;   1"      // kill eater | count strange kills 
+            "8"                     "257    ;   -1.5"   // airblast velocity is 150% downward
+	    "9"			    "144    ;   2"	// alt flame particles
+        }
+	"41" // Natascha
+	{
+	    "preserve-attributes"   "0"
+	    "quality"		    "10"
+	    "1"			    "738    ;   0.65"	// -35% dmg taken under half hp
+	    "2"			    "252    ;   0.25"	// 75% knockback resist
+	    "3"			    "1	    ;   0.75"	// -25% dmg
+	    "4"			    "431    ;   2"	// -2 ammo/sec while spinning
+	    "5"			    "323    ;   2"	// destroy projectiles
+	    "6"			    "329    ;   0.25"	// 75% airblast resistance
+	    "7"			    "128    ;   1"	// on active
+	    "8"			    "144    ;   1"	// lunchbox adds minicrits
+	    "9"			    "86     ;   1.2"	// +20% spinup time
+	    "10"		    "214    ;   1"	// count strange kills
+	}
+        "43" // KGB
+        {
+            "preserve-attributes"   "0"			// oddly bugged, still gives crits
+            "quality"               "10"
+            "1"                     "215    ;   750"    // apply 750 positive z velocity
+            "2"                     "1      ;   .75"    // -25% damage penalty
+            "3"                     "214    ;   1"      // kill eater | count strange kills 
+	    "4"			    "15     ;   0"	// no random crits
+	    "5"			    "524    ;   2"	// +100% jump height active
+	    "6"			    "855    ;   6"	// max hp drain
+	    "7"			    "259    ;   1"	// falling stomp
+        }
+        "44" // Sandman
+        {
+            "preserve-attributes"   "0"
+            "quality"               "10"
+            "1"                     "38     ;   1"      // mod launches baseballs
+            "2"                     "177    ;   1.33"   // +33% longer weapon switch
+            "3"                     "326    ;   1.4"    // +40% jump height on wearer
+            "4"                     "214    ;   1"      // kill eater | count strange kills 
+        }
+	"45" // Force-a-Nature
+	{
+	    "preserve-attributes"   "0"
+	    "quality"		    "10"
+	    "1"			    "413    ;   1"	// beggar's mechanics
+	    "2"			    "44     ;   0"	// knockback disabled
+	    "3"			    "3	    ;   0.33"	// -66% clip size
+	    "4"			    "43	    ;   1"	// clip reload
+	    "5"			    "96     ;   1.2"	// 20% slower reload
+	    "6"			    "6      ;   0.4"	// 60% faster fire rate
+	    "7"			    "214    ;   1"	// count strange kills
+	    "8"			    "324    ;   1.4"	// +40% dmg on subsequent hit
+	    "9"			    "1	    ;   0.8"	// -30% dmg
+	}
+	"1078" // Festive Force-a-Nature
+	{
+	    "preserve-attributes"   "0"
+	    "quality"		    "10"
+	    "1"			    "413    ;   1"	// beggar's mechanics
+	    "2"			    "44     ;   0"	// knockback disabled
+	    "3"			    "3	    ;   0.33"	// -66% clip size
+	    "4"			    "43	    ;   1"	// clip reload
+	    "5"			    "96     ;   1.2"	// 20% slower reload
+	    "6"			    "6      ;   0.4"	// 60% faster fire rate
+	    "7"			    "214    ;   1"	// count strange kills
+	    "8"			    "324    ;   1.4"	// +40% dmg on subsequent hit
+	    "9"			    "1	    ;   0.8"	// -30% dmg
+	}
+	"46" // Bonk! Atomic Punch
+	{
+	    "preserve-attributes"   "1"
+	    "1"			    "201    ;   0.5"	// 50% taunt speed
+	    "2"			    "128    ;   1"	// on active
+	}
+	"1145" // Bonk! Atomic Punch festive
+	{
+	    "preserve-attributes"   "1"
+	    "1"			    "201    ;   0.5"	// 50% taunt speed
+	    "2"			    "128    ;   1"	// on active
+	}
+	"56" // Huntsman
+	{
+	    "preserve-attributes"   "1"
+	    "quality"		    "10"
+	    "1"			    "37	    ;   0.5"	// -50% ammo
+	    "2"		    	    "869    ;   1"	// crits become minicrits
+	    "3"			    "266    ;   1"	// projectile penetration
+	}
+	"1005" // Festive Huntsman
+	{
+	    "preserve-attributes"   "1"
+	    "quality"		    "10"
+	    "1"			    "37	    ;   0.5"	// -50% ammo
+	    "2"		    	    "869    ;   1"	// crits become minicrits
+	    "3"			    "266    ;   1"	// projectile penetration
+	}
+        "57" // Razorback
+        {
+            "preserve-attributes"   "0"
+            "quality"               "10"
+            "1"                     "57     ;   -2"     // -1 HP/tick on wearer
+            "2"                     "52     ;   1"      // backstab shield
+            "3"                     "214    ;   5"      // kill eater | count backstabs
+        }
+        "61" // Ambassador
+        {
+            "preserve-attributes"   "0"
+            "quality"               "10"
+            "1"                     "51     ;   1"      // revolver use hit locations
+            "2"                     "1      ;   0.75"   // -25% dmg
+            "3"                     "96     ;   1.5"    // +50% reload time increase
+            "4"                     "868    ;   1"      // crit dmg falloff
+	    "5"                     "324    ;   1.4"      // +40% dmg on successive hits
+	    "6"			    "214    ;   1"	// count strange kills
+        }
+        "1006" // Festive Ambassador
+        {
+            "preserve-attributes"   "0"
+            "quality"               "10"
+            "1"                     "51     ;   1"      // revolver use hit locations
+            "2"                     "1      ;   0.75"   // -25% dmg
+            "3"                     "96     ;   1.5"    // +50% reload time increase
+            "4"                     "868    ;   1"      // crit dmg falloff
+	    "5"                     "324    ;   1.4"      // +40% dmg on successive hits
+	    "6"			    "214    ;   1"	// count strange kills
+        }
+//        "127" // Direct Hit
+//        {
+//            "preserve-attributes"   "1"
+//            "quality"               "10"
+//            "1"                     "6      ;   .35"    // +65% fire rate bonus
+//            "2"                     "3      ;   .75"     // -25% clip size penalty
+//            "3"                     "1      ;   .5"     // -50% damage penalty
+//            "4"                     "267    ;   1"      // crits while rocket jumping
+//            "5"                     "207    ;   1.25"   // +25% self damage on blast jump
+//            "6"                     "868    1   1"      // crits have falloff
+//            "7"                     "114    ;   0"      // not minicrit airborne
+//            "8"                     "214    ;   1"      // kill eater | count strange kills 
+//        }
+        "127" // Direct Hit casual alt
+        {
+            "preserve-attributes"   "1"
+            "quality"               "10"
+            "1"                     "6      ;   .7"    // +30% fire rate bonus
+            "2"                     "3      ;   .75"     // -25% clip size penalty
+            "3"                     "1      ;   .9"     // -10% damage penalty
+            "4"                     "267    ;   1"      // crits while rocket jumping
+            "5"                     "869    ;   1"   // mini-crits instead of crits
+            "6"                     "868    ;   1"      // crits have falloff
+	    "7"			    "214    ;   1"	// count strange kills
+        }
+        "128" // The Equalizer
+        {
+            "preserve-attributes"   "0"
+            "quality"               "10"
+            "1"                     "125    ;   -25"    // -25 HP max health penalty
+            "2"                     "800    ;   1.5"    // +50% patient max overheal bonus 
+            "3"                     "214    ;   1"      // count strange kills 
+        }
+        "130" // Scottish Resistance
+        {
+            "preserve-attributes"   "0"
+            "quality"               "10"
+            "1"                     "240    ;   0.6"    // +20% reload faster while healed 
+            "2"                     "241    ;   1.2"    // +20% longer reloading
+            "3"                     "128    ;   1"      // provide attributes on active
+            "4"                     "854    ;   0"      // -100% healing while medic heals you
+	    "5"			    "119    ;   1"	// select detonate + sticky model
+	    "6"			    "214    ;   1"	// count strange kills
+        }
+//	"130" // Scottish Resistance alt
+//	{
+//	    "preserve-attributes"   "0"
+//	    "quality"		    "10"
+//	    "1"			    "119    ;    1"	// selective detonation
+//	    "2"			    "121    ;    1"	// break stickies
+//	    "3"			    "88     ;    4"	// +4 bombs
+//	    "4"			    "1      ;    0.75"	// -25% dmg
+//	    "5"			    "741    ;    25"	// up to 25 health on hit
+//	}
+        "131" // Chargin' Targe
+        {
+            "preserve-attributes"   "0"
+            "quality"               "10"
+            "1"                     "676    ;    1"     // lose charge on damage
+            "2"                     "54     ;   .8"     // -20% move speed penalty
+            "3"                     "64     ;   .5"     // +50% damage resistance to blast
+            "4"                     "66     ;   .5"     // +50% damage resistance to bullets
+            "5"                     "60     ;   .5"     // +50% damage resistance to fire
+            "6"                     "214    ;   1"      // kill eater | count strange kills 
+        }
+        "1144" // Festive Chargin' Targe
+        {
+            "preserve-attributes"   "0"
+            "quality"               "10"
+            "1"                     "676    ;    1"     // lose charge on damage
+            "2"                     "54     ;   .8"     // -20% move speed penalty
+            "3"                     "64     ;   .5"     // +50% damage resistance to blast
+            "4"                     "66     ;   .5"     // +50% damage resistance to bullets
+            "5"                     "60     ;   .5"     // +50% damage resistance to fire
+            "6"                     "214    ;   1"      // kill eater | count strange kills 
+        }
+        "132" // Eyelander
+        {
+            "preserve-attributes"   "0"
+            "quality"               "10"
+            "1"                     "219    ;   1"      // decap type (collects heads)
+            "2"                     "781    ;   1"      // is a sword
+            "3"                     "54     ;   .88"    // -12% move speed penalty
+            "4"                     "263    ;   1.5"    // +50% bounds multiplier (wider)
+            "5"                     "214    ;   1"      // kill eater | count strange kills 
+        }
+        "1082" // Festive Eyelander
+        {
+            "preserve-attributes"   "0"
+            "quality"               "10"
+            "1"                     "219    ;   1"      // decap type (collects heads)
+            "2"                     "781    ;   1"      // is a sword
+            "3"                     "54     ;   .88"    // -12% move speed penalty
+            "4"                     "263    ;   1.5"    // +50% bounds multiplier (wider)
+            "5"                     "214    ;   1"      // kill eater | count strange kills 
+        }
+        "133" // The Gunboats
+        {
+            "preserve-attributes"   "1"
+            "quality"               "10"
+            "1"                     "259    ;   1"      // boots have falling stomp
+        }
+        "141" // Frontier Justice
+        {
+            "preserve-attributes"   "0"
+            "quality"               "10"
+            "1"                     "6      ;   .66"    // +33% fire rate bonus
+            "2"                     "96     ;   1.66"   // +66% longer reload
+            "3"                     "3      ;   .33"    // -66% clip size penalty
+            "4"                     "136    ;   1"      // mod sentry killed revenge
+	    "5"			    "214    ;   1"	// count strange kills
+        }
+        "1004" // Festive Frontier Justice
+        {
+            "preserve-attributes"   "0"
+            "quality"               "10"
+            "1"                     "6      ;   .66"    // +33% fire rate bonus
+            "2"                     "96     ;   1.66"   // +66% longer reload
+            "3"                     "3      ;   .33"    // -66% clip size penalty
+            "4"                     "136    ;   1"      // mod sentry killed revenge
+            "5"                     "214    ;   1"      // kill eater | count strange kills 
+        }
+        "142" // Gunslinger
+        {
+            "preserve-attributes"   "0"
+            "quality"               "10"
+            "1"                     "26     ;   25"     // +25 health bonus
+            "2"                     "124    ;   1"      // builds minis
+            "3"                     "148    ;   .6"     // -40% building cost
+            "4"                     "287    ;   1.2"    // +20% increase in mini damage
+            "5"                     "286    ;   .6"     // -40% building health penalty
+            "6"                     "321    ;   .5"     // +50% build rate bonus
+            "7"                     "2043   ;   0"      // -100% upgrade rate to buildings (no upgrading)
+            "8"                     "68     ;   1"      // +1 capture rate on wearer
+            "9"                     "214    ;   3"      // kill eater | count strange sentry 
+            "10"                     "293    ;   0"      // kill eater 2
+        }
+//        "153" // Homewrecker
+//        {
+//            "preserve-attributes"   "0"
+//            "quality"               "10"
+//            "1"                     "146    ;   1"      // can damage sappers
+//            "2"                     "226    ;   1"      // honorbound - sheathing without killing costs 50 HP
+//            "3"                     "137    ;   2.5"    // +150% damage vs buildings
+//            "4"                     "224    ;   .5"     // -50% damage penalty while half dead
+//            "5"                     "214    ;   1"      // count strange kills 
+//        }
+	"153" // Homewrecker hammer alt
+	{
+	    "preserve-attributes"   "1"
+	    "1"			    "137    ;   2.5"	// +150% dmg vs buildings
+	    "2"			    "128    ;   1"	// on active
+	    "3"			    "781    ;   1"	// slow draw, long reach
+	    "4"			    "264    ;   2.22"	// net 3x melee range
+	    "5"			    "263    ;   2"	// double melee bounds
+	    "6"			    "699    ;   3"	// 3x hand size
+	    "7"			    "15	    ;   0"	// no random crits
+	    "8"			    "138    ;	0.5"	// -50% dmg vs players
+	    "9"		    	    "182    ;   3"	// 3s slow on hit
+	}
+        "154" // Pain Train
+        {
+            "preserve-attributes"   "0"
+            "quality"               "10"
+            "1"                     "239    ;   1.05"   // 5% extra charge rate for healer
+            "2"                     "69     ;   .75"    // 25% less healing from healers
+            "3"                     "800    ;   .5"     // -50% overhealing on patient
+            "4"                     "214    ;   1"      // kill eater | count strange kills 
+        }
+        "155" // Southern Hospitality
+        {
+            "preserve-attributes"   "0"
+            "quality"               "10"
+            "1"                     "81     ;   .5"     // -50% decrease of max metal to 100 total
+            "2"                     "113    ;   30"     // +30 metal every 5 seconds on wearer
+            "3"                     "148    ;   .77"    // -23% building cost bonus
+            "4"                     "94     ;   1.5"    // +50% increased repair rate
+            "5"                     "214    ;   0"      // kill eater
+            "6"                     "293    ;   3"      // kill eater 2
+        }
+	"159" // Dalokohs Bar
+	{
+	    "preserve-attributes"   "0"
+	    "1"			    "144    ;   5"	// lunchbox gives ammo and health
+	    "2"			    "876    ;  0.5"	// -50% healing
+            "3"                     "214    ;   50"      // count eating
+	}
+	"433" // Fishcake
+	{
+	    "preserve-attributes"   "0"
+	    "1"			    "144    ;   5"	// lunchbox gives ammo and health
+	    "2"			    "876    ;  0.5"	// -50% healing
+            "3"                     "214    ;   50"      // count eating
+	}
+        "171" // Tribalman's Shiv
+        {
+            "preserve-attributes"   "0"
+            "quality"               "10"
+            "1"                     "1      ;   .8"     // -20% damage penalty
+            "2"                     "340    ;   1"      // reveal disguised spies on hit
+            "3"                     "339    ;   1"      // reveal cloaked spies on hit
+            "4"                     "214    ;   1"      // kill eater | count strange kills 
+        }
+        "172" // Skullcutter
+        {
+            "preserve-attributes"   "0"
+            "quality"               "10"
+            "1"                     "781    ;   72"     // is a sword
+            "2"                     "774    ;   -60"    // -60s charge duration (no charging)
+            "3"                     "31     ;   3"      // 5s of critboost on kill
+            "4"                     "772    ;   2.5"    // +150% holster time penalty
+            "5"                     "214    ;   1"      // kill eater | count strange kills 
+        }
+        "173" // Vita-Saw
+        {
+            "preserve-attributes"   "0"
+            "quality"               "10"
+            "1"                     "26     ;   15"     // +15 HP bonus
+            "2"                     "54     ;   .90"    // -10% move speed penalty
+            "3"                     "123    ;   1.10"   // +10% move speed bonus while active
+            "4"                     "214    ;   1"      // kill eater | count strange kills 
+        }
+        "214" // Powerjack
+        {
+            "preserve-attributes"   "0"
+            "quality"               "10"
+            "1"                     "26     ;   25"     // +25 HP on wearer
+            "2"                     "734    ;   .50"    // 50% reduced healing from all sources
+            "3"                     "214    ;   1"      // kill eater | count strange kills
+        }
+        "215" // Degreaser
+        {
+            "preserve-attributes"   "1"                 // must preserve. bugged otherwise
+            "quality"               "10"
+            "1"                     "256    ;   .50"    // +50% faster airblast refire
+            "2"                     "170    ;   1.5"    // +50% airblast cost
+            "3"                     "173    ;   4"   	// +300% ammo consumed per second
+            "4"                     "72     ;   1"      // standard afterburn damage
+            "5"                     "833    ;   1"      // turn projectiles into small ammo boxes
+            "6"                     "827    ;   1"      // airblast extinguish disabled
+            "7"                     "832    ;   1"      // airblast gives speed boost to teammates
+            "8"                     "177    ;   1"      // deploy time increased to standard
+            "9"                     "1008   ;   1"      // green halloween flames
+	   "10"			    "255    ;	1.5"	// +50% airblast pushback scale
+	   "11"			    "772    ;   1"	// holster time standard
+        }
+        "220" // Shortstop
+        {
+            "preserve-attributes"   "0"
+            "quality"               "10"
+            "1"                     "279    ;   2"      // +200% increase in grenades (baseballs, baubles) on wearer
+            "2"                     "318    ;   .8"     // +20% faster reload rate
+            "3"                     "6      ;   .8"     // +20% fire rate bonus
+            "4"                     "3      ;   .75"    // -25% clip size penalty
+            "5"                     "214    ;   1"      // kill eater | count strange kills 
+        }
+//	"220" // Shortstop alt
+//	{
+//	    "preserve-attributes"   "0"
+//	    "quality"		    "10"
+//	    "1"			    "326    ;   1.4"	// +40% jump height
+//	    "2"			    "329    ;   1.4"	// +40% airblast vuln
+//	    "3"			    "525    ;   1.4"	// +40% knockback vuln
+//	    "4"			    "128    ;   1"	// on active
+//	    "5"			    "214    ;   1"	// count strange kills
+//	}
+        "221" // Mackerel
+        {
+            "preserve-attributes"   "0"
+            "quality"               "10"
+            "1"                     "438    ;   1"      // crit vs wet players
+            "2"                     "1      ;   .75"    // -25% damage penalty
+            "3"                     "214    ;   1"      // kill eater | count strange kills 
+        }
+        "572" // Unarmed Combat
+        {
+            "preserve-attributes"   "0"
+            "quality"               "10"
+            "1"                     "438    ;   1"      // crit vs wet players
+            "2"                     "1      ;   .75"    // -25% damage penalty
+            "3"                     "214    ;   1"      // kill eater | count strange kills 
+        }
+        "224" // L'etranger
+        {
+            "preserve-attributes"   "0"
+            "quality"               "10"
+            "1"                     "360    ;   1"      // damage all connected by medibeam
+            "2"                     "336    ;   1"      // hide enemy health
+            "3"                     "1      ;   .75"    // -25% damage penalty
+            "4"                     "214    ;   1"      // kill eater | count strange kills 
+        }
+        "225" // Your Eternal Reward
+        {
+            "preserve-attributes"   "0"
+            "quality"               "10"
+            "1"                     "6      ;   .75"    // +25% fire rate bonus
+            "2"                     "150    ;   1"      // victims turn to gold
+            "3"                     "736    ;   2"      // +2s speed boost on kill
+            "4"                     "221    ;   1.35"   // +35% decloaking duration penalty
+            "5"                     "214    ;   1"      // kill eater | count strange kills 
+        }
+        "574" // Wanga Prick
+        {
+            "preserve-attributes"   "0"
+            "quality"               "10"
+            "1"                     "6      ;   .75"    // +25% fire rate bonus
+            "2"                     "150    ;   1"      // victims turn to gold
+            "3"                     "736    ;   2"      // +2s speed boost on kill
+            "4"                     "221    ;   1.35"   // +35% decloaking duration penalty
+            "5"                     "214    ;   1"      // kill eater | count strange kills 
+        }
+        "228" // Black Box
+        {
+            "preserve-attributes"   "0"
+            "quality"               "10"
+            "1"                     "104    ;   .66"     // -33% projectile speed penalty
+            "2"                     "99     ;   1.10"   // +10% bigger splash radius bonus
+            "3"                     "214    ;   1"      // count strange kills
+	    "4"		 	    "137    ;  1.1"	// 10% damage bonus vs buildings
+        }
+        "1085" // Festive Black Box
+        {
+            "preserve-attributes"   "0"
+            "quality"               "10"
+            "1"                     "104    ;   .66"     // -33% projectile speed penalty
+            "2"                     "99     ;   1.10"   // +10% bigger splash radius bonus
+            "3"                     "214    ;   1"      // count strange kills 
+	    "4"		 	    "137    ;  1.1"	// 10% damage bonus vs buildings
+        }
+        "230" // Sydney Sleeper
+        {
+            "preserve-attributes"   "0"
+            "quality"               "10"
+            "1"                     "20     ;   1"      // always crit vs burning players
+            "2"                     "41     ;   1.25"   // +25% faster charge rate bonus
+            "3"                     "42     ;   1"      // rifle can't headshot penalty
+            "4"                     "279    ;   2"      // +1 grenade maxammo (+1 Jarate)
+            "5"                     "175    ;   5"      // 5s jarate duration on apply
+            "6"                     "214    ;   1"      // kill eater | count strange kills 
+        }
+        "231" // Darwin's Danger Shield
+        {
+            "preserve-attributes"   "0"
+            "quality"               "10"
+            "1"                     "63     ;   2.5"    // +100% more damage from crits penalty
+            "2"                     "527    ;   1"      // afterburn immunity
+            "3"                     "66     ;   .6"     // +40% bullet damage resistance bonus
+            "4"                     "64     ;   .6"     // +40% blast damage resistance bonus
+        }
+        "232" // Bushwacka
+        {
+            "preserve-attributes"   "0"
+            "quality"               "10"
+            "1"                     "362    ;   1"      // always crit players from behind behind
+            "2"                     "772    ;   2.5"    // +150% holster time increase penalty
+            "3"                     "214    ;   1"      // kill eater | count strange kills 
+        }
+        "239" // Gloves of Running Urgently
+        {
+            "preserve-attributes"   "0"
+            "quality"               "10"
+            "1"                     "442    ;   1.35"   // +35% faster move speed bonus 
+            "2"                     "128    ;   1"      // provide attributes on active on active
+            "3"                     "852    ;   1.5"    // +50% damage vuln penalty
+            "4"                     "772    ;   2.25"   // +125% holster penalty
+            "5"                     "214    ;   1"      // kill eater | count strange kills 
+        }
+//	"239" // Gloves of Running Urgently alt
+//	{
+//	    "preserve-attributes"   "0"
+//	    "quality"		    "10"
+//	    "1"			    "220    ;   100"	// +100 hp on kill
+//	    "2"			    "107    ;   1.5"	// +50% move speed
+//	    "3"			    "772    ;   1.5"	// 50% slower holster
+//	    "4"			    "77     ;   0"	// no primary
+//	    "5"			    "128    ;   1"	// on active
+//	}
+//	"239" // GRU alt 2
+//	{
+//	    "preserve-attributes"   "0"
+//	    "quality"		    "10"
+//	    "1"			    "107    ;   1.35"	// +35% move speed
+//	    "2"			    "77     ;   0"	// no primary
+//	}
+        "1084" // Festive Gloves of Running Urgently
+        {
+            "preserve-attributes"   "0"
+            "quality"               "10"
+            "1"                     "442    ;   1.35"   // +35% faster move speed bonus 
+            "2"                     "128    ;   1"      // provide attributes on active
+            "3"                     "852    ;   1.5"    // +50% damage vuln penalty
+            "4"                     "772    ;   2.25"   // +125% holster penalty
+            "5"                     "214    ;   1"      // kill eater | count strange kills 
+        }
+        "265" // Sticky Jumper
+        {
+            "preserve-attributes"   "1"
+            "quality"               "10"
+            "1"                     "88     ;   6"      // +6 max stickybombs out bonus
+        }
+        "266" // Horseless Headless Horsemann's Headtaker
+        {
+            "preserve-attributes"   "0"
+            "quality"               "10"
+            "1"                     "219    ;   1"      // decap type (collects heads)
+            "2"                     "781    ;   1"      // is a sword
+            "3"                     "54     ;   .88"    // -12% move speed penalty
+            "4"                     "263    ;   1.5"    // +50% bounds multiplier (wider)
+            "5"                     "214    ;   1"      // kill eater | count strange kills 
+        }
+        "304" // Amputator
+	{
+	    "preserve-attributes"   "1"
+	    "quality"		    "10"
+	    "1"			    "130    ;   4"	// +300% regen rate
+	    "2"			    "200    ;   1"	// enables aoe heal
+	    "3"			    "128    ;   1"	// provide on active
+	    "4"			    "54     ;   .2"    // -80% move speed penalty
+            "5"                     "772    ;   2"    // -100% holster speed penalty
+	    "6"			    "201    ;   1.5"	// 50% faster taunt
+	}
+        "305" // Crusader's Crossbow
+        { 
+            "preserve-attributes"   "0"
+            "quality"               "10"
+            "1"                     "474    ;   60"      // heal friendly buildings (+4 health on hit)
+            "2"                     "42     ;   1"      // sniper no headshots
+            "3"                     "214    ;   1"      // kill eater | count strange kills 
+        }
+        "1079" // Festive Crusader's Crossbow
+        { 
+            "preserve-attributes"   "0"
+            "quality"               "10"
+            "1"                     "474    ;   60"      // heal friendly buildings (+4 health on hit)
+            "2"                     "42     ;   1"      // sniper no headshots
+            "3"                     "214    ;   1"      // kill eater | count strange kills 
+        }
+        "307" // Ullapool Caber
+        {
+            "preserve-attributes"   "0"
+            "quality"               "10"
+            "1"                     "207    ;   1000"   // +10000% blast dmg to self penalty
+            "2"                     "2      ;   3"      // +100% damage bonus
+            "3"                     "772    ;   2"      // +100% holster rate penalty
+            "4"                     "773    ;   2"      // +100% deploy rate penalty
+	    "5"			    "334    ;   1"	// corpse explode on death
+            "6"                     "214    ;   1"      // count strange kills
+        }
+//	"307" // Caber alt
+//	{
+//	    "preserve-attributes"   "0"
+//	    "quality"		    "10"
+//	    "1"			    "1      ;   0.75"	// -25% dmg
+//	    "2"			    "773    ;   2"	// +100% deploy rate penalty
+//	    "3"			    "15     ;   0"	// no random crits
+//	    "4"			    "267    ;   1"	// crits while airborne
+//	    "5"			    "214    ;   1"	// count strange kills
+//	}
+        "308" // Loch n Load
+        {
+            "preserve-attributes"   "0"
+            "quality"               "10"
+            "1"                     "681    ;   1"      // grenades roll, but don't bounce
+            "2"                     "103    ;   1.25"   // +25% projectile speed bonus
+            "3"                     "114    ;   1"      // minicrit targets knocked airborne by explosions
+            "4"                     "100    ;   0.5"    // -50% blast radius penalty
+            "5"                     "3      ;   .75"    // 25% clip size penalty
+            "6"                     "118    ;   0.2"      // falloff capped at 80
+	    "7"			    "684    ;   1.25"	// +25% dmg on timed grenades
+            "8"                     "214    ;   1"      // count strange kills
+	    "9"			    "681    ;   1"	// grenade no spin
+        }
+//      "308" // Loch n Load - Hitscan
+//      {
+//          "preserve-attributes"   "0"
+//          "quality"               "10" 
+//          "1"                     "280    ;   1"      // override projectile to bullet
+//          "2"                     "1      ;   .75"    // damage penalty 25%
+//         "3"                     "305    ;   1"      // sniper fires tracer
+//      }
+        "310" // Warrior's Spirit
+        {
+            "preserve-attributes"   "0"
+            "quality"               "10"
+            "1"                     "125    ;   -125"   // -125 HP penalty
+            "2"                     "57     ;   40"     // +40 health regen per second bonus
+            "3"                     "214    ;   1"      // count strange kills
+        }
+	"311" // Buffalo Steak Sandvich
+	{
+	    "preserve-attributes"   "1"
+	    "1"			    "798    ;   0.75"	// -25% dmg taken while buffed
+	}
+        "312" // Brass Beast
+        {
+            "preserve-attributes"   "0"
+            "quality"               "10"
+            "1"                     "242    ;   1"      // killer of your medic becomes marked for death
+            "2"                     "233    ;   1.53"   // +15% damage bonus while medic heals you 
+            "3"                     "1      ;   .75"    // damage penalty 25%
+            "4"                     "323    ;   2"      // attack projectiles level 2
+            "5"                     "214    ;   1"      // count strange kills
+        }
+//	"312" // Brass Beast alt
+//	{
+//	    "preserve-attributes"   "0"
+//	    "1"			    "397     ;   1"	// penetrate 1 player
+//	    "2"			    "45     ;   0.5"	// -50% bullets per shot
+//	    "3"			    "6      ;   0.5"	// +100% fire rate
+//	    "4"			    "76     ;   2"	// +100% ammo
+//	    "5"			    "1	    ;   0.8"	// -20% damage
+//            "6"                     "214    ;   1"      // count strange kills
+//	}
+        "317" // Candy Cane
+        {
+            "preserve-attributes"   "0"
+            "quality"               "10"
+            "1"                     "57     ;   5"      // +5 health regeneration per second
+            "2"                     "128    ;   1"      // provide on active
+            "3"                     "412    ;   1.4"    // +40% damage vulnerability on wearer
+            "4"                     "214    ;   1"      // count strange kills
+        }
+        "325" // Boston Basher
+        {
+            "preserve-attributes"   "0"
+            "quality"               "10"
+            "1"                     "5      ;   1.6"    // +60% fire rate penalty
+            "2"                     "339    ;   1"      // reveal cloaked spies on hit
+            "3"                     "337    ;   10"     // subtract 10 medigun charge on victim on hit
+            "4"                     "214    ;   1"      // kill eater | count strange kills 
+        }
+        "326" // Back Scratcher
+        {
+            "preserve-attributes"   "0"
+            "quality"               "10"
+            "1"                     "149    ;   5"      // add 5 seconds of bleed on hit
+            "2"                     "204    ;   1"      // hit self on miss
+            "3"                     "269    ;   1"      // see enemy health
+            "4"                     "214    ;   1"      // count strange kills
+        }
+        "327" // Claidheamh Mor
+        {
+            "preserve-attributes"   "0"
+            "quality"               "10"
+            "1"                     "15    ;   0"      // no random crits
+            "2"                     "781    ;   1"      // is a sword
+            "3"                     "125    ;   -25"    // -25 HP max health additive penalty
+            "4"                     "263    ;   1.35"   // +35% melee range multiplier bonus
+	    "5"			    "246    ;   4"	// +300% charge turn control
+	    "6"			    "202    ;   0.5"	// +0.5s charge time
+            "7"                     "214    ;   1"      // count strange kills
+        }
+        "329" // The Jag
+        {
+            "preserve-attributes"   "0"
+            "quality"               "10"
+            "1"                     "276    ;   1"      //  bidirectional teleporters
+            "2"                     "345    ;   2"      // +100% increased dispenser radius bonus
+            "3"                     "80     ;   1.5"    // +50% more base metal (300 base metal)
+            "4"                     "343    ;   1.5"    // -5% slower sentry firing rate penalty
+            "5"                     "286    ;   .8"     // -20% less building health penalty
+            "6"                     "214    ;   0"      // kill eater | count strange kills 
+            "7"                     "293    ;   3"      // count sentry kills
+        }
+        "331" // Fists of Steel
+        {
+            "preserve-attributes"   "0"
+            "quality"               "10"
+            "1"                     "128    ;   1"      // provide attributes on active
+            "2"                     "205    ;   .1"     // -90% reduction from ranged damage bonus
+            "3"                     "54     ;   .01"    // -99% move speed penalty
+            "4"                     "772    ;   1.2"    // -20% holster speed penalty
+            "5"                     "252    ;   .01"    // +100% damage force reduction bonus
+            "6"                     "68     ;   -1"     // -1 capture rate on wearer penalty
+            "7"                     "855    ;   3"      // -5 maxhealth/s while active
+            "8"                     "236    ;   1"      // block healing while in use
+            "9"                     "534    ;   .01"    // airblast vulnerability multiplier
+            "10"                     "214    ;   1"      // kill eater | count strange kills 
+        } 
+        "348" // Sharpened Volcano Fragment
+        {
+            "preserve-attributes"   "0"
+            "quality"               "10"
+            "1"                     "218   ;   1"      // mark for death on hit
+            "2"                     "1      ;   .2"     // -80% damage penalty
+	    "3"			    "199    ;   0.65"	// +35% faster deploy
+            "4"                     "214    ;   1"      // kill eater | count strange kills 
+        }
+        "349" // Sun on a stick
+        { 
+            "preserve-attributes"   "0"
+            "quality"               "10"
+            "1"                     "107    ;   1.15"   // +15% move speed bonus
+            "2"                     "61     ;   1.5"    // +50% vulnerability from fire
+            "3"                     "214    ;   1"      // kill eater | count strange kills 
+        }
+	"351" // Detonator
+	{
+	    "preserve-attributes"   "1" 		// necessary for explosion
+	    "quality"		    "10"
+	    "1"			    "25     ;   0.5"	// -50% ammo carried hidden
+	    "2"			    "1	    ;   0.5"	// -50% dmg
+	    "3"			    "72	    ;   0.5"	// -50% afterburn dmg
+	    "4"			    "58     ;   1.5"	// +50% self push force
+	    "5"			    "135    ;   0.75"	// -25% blast dmg to self
+            "6"                     "214    ;   1"      // count strange kills
+	}
+        "355" // Fan O War
+        {
+            "preserve-attributes"   "0"
+            "quality"               "10"
+            "1"                     "522    ;   1"      // damage applies airblast knockback
+            "2"                     "1      ;   .1"     // -90% damage penalty
+            "3"                     "5      ;   1.6"    // -60% fire rate penalty
+            "3"                     "214    ;   1"      // kill eater | count strange kills 
+        }
+//        "356" // Kunai
+//        {
+//            "preserve-attributes"   "0"
+//            "quality"               "10"
+//            "1"                     "852    ;   .67"     // 33% dmg resist
+//            "2"                     "534    ;   1.75"   // +75% airblast vuln
+//            "3"                     "54     ;   .93"    // -7% move speed
+//            "4"                     "214    ;   1"      // kill eater | count strange kills 
+//        }
+        "356" // Kunai
+        {
+            "preserve-attributes"   "0"
+            "quality"               "10"
+            "1"                     "160    ;   1"     // quiet uncloak
+            "2"                     "159    ;   0.3"   // +0.3s cloak blink time
+            "3"                     "524    ;   1.25"    // +25% jump height while active
+            "4"                     "214    ;   1"      // count strange kills
+        }
+        "357" // Half-Zatoichi
+        {
+            "preserve-attributes"   "0"
+            "quality"               "10"
+            "1"                     "224    ;   1.5"    // +50% damage bonus while half dead
+            "2"                     "225    ;   .5"     // -50% damage penalty while half alive
+            "3"                     "180    ;   100"    // +100 HP on kill
+            "4"                     "264    ;   1.35"      // +35% melee range
+            "5"                     "214    ;   1"      // count strange kills
+        }
+        "401" // Shahanshah
+        {
+            "preserve-attributes"   "0"
+            "quality"               "10"
+            "1"                     "146    ;   1"      // weapon can damage sappers
+            "2"                     "5      ;   1.25"   // -25% fire rate penalty
+            "3"                     "214    ;   1"      // kill eater | count strange kills 
+        }
+        "402" // Bazaar Bargain 
+        {
+            "preserve-attributes"   "1"                 // head counter hardcoded, must be preserved to not bug
+            "quality"               "10"
+            "1"                     "96     ;   2"      // +100% reload penalty
+            "2"                     "41     ;   1.75"   // +25% faster charge rate (-50% from base rifle)
+            "3"                     "214    ;   1"      // kill eater | count strange kills 
+	    "4"                     "220    ;   60"     // +75 HP on kill (overheal)
+            "5"                     "77     ;   .5"     // -60% ammo penalty
+        }
+        "404" // Persian Persuader
+        {
+            "preserve-attributes"   "0"
+            "quality"               "10"
+            "1"                     "6      ;   .66"    // +33% swing speed bonus
+            "2"                     "778    ;   .15"    // +15% of meter recharged on hit
+            "3"                     "1      ;   .5"     // +50% damage penalty
+            "4"                     "214    ;   1"      // kill eater | count strange kills 
+        } 
+        "405" // Ali Baba's Wee Booties
+        {
+            "preserve-attributes"   "1"
+            "quality"               "10"
+            "1"                     "135    ;   .4"     // -60% self blast damage bonus
+        }
+        "406" // Splendid Screen
+        {
+            "preserve-attributes"   "0"
+            "quality"               "10"
+            "1"                     "247    ;   1"      // charge impact damage at any range
+            "2"                     "774    ;   -.75"   // -.75 seconds charge duration penalty
+            "3"                     "248    ;   1.5"    // +50% increase in impact damage bonus
+            "4"                     "249    ;   1.35"   // +35% faster recharge rate bonus
+            "5"                     "782    ;   1"      // ammo pickups give charge
+            "6"                     "214    ;   1"      // kill eater | count strange kills 
+        }
+        "411" // Quick Fix
+        {
+            "preserve-attributes"   "0"
+            "quality"               "10"
+            "1"                     "12     ;   .33"    // +66% overheal decay penalty
+            "2"                     "231    ;   2"      // Ubercharge is 300% megahealing
+            "3"                     "8      ;   1.4"    // +40% faster healing bonus
+            "4"                     "314    ;   4"      // +4s ubercharge duration bonus
+            "5"                     "11     ;   1.25"   // +25% more max overhealing bonus
+            "6"                     "9      ;   0.95"    // -5% ubercharge rate penalty
+	    "7"			    "144    ;	2"	// lunchbox adds minicrits
+            "8"                     "214    ;   1"      // kill eater | count ubers 
+            "9"                     "293    ;   2"      // kill eater 2
+        }
+//        "412" // Overdose
+//        {
+//            "preserve-attributes"   "0"
+//            "quality"               "10"
+//            "1"                     "214    ;   1"      // count strange kills
+//	    "2"			    "314    ;   4"	// +4s uber duration bonus
+//	    "3"			    "125    ;   -25"	// -25 max HP
+//	    "4"			    "851    ;   1.15"	// +15% move speed active
+//        }
+	"412" // Overdose
+	{
+	    "preserve-attributes"   "0"
+	    "1"			    "128    ;   1"	// on active
+	    "2"			    "191    ;  -6"	// -6 hp/sec
+	    "3"			    "314    ;  72"	// +72s uber duration
+	    "4"			    "792    ;  1.2"	// up to +20% move with uber
+	    "5"			    "69     ;  0.1"	// -90% healing from healers
+	}
+        "413" // Solemn Vow
+        {
+            "preserve-attributes"   "0"
+            "quality"               "10"
+            "1"                     "57     ;   3"      // +3 health regenerated per second bonus
+            "2"                     "125    ;   -10"    // -10 max HP penalty
+            "3"                     "214    ;   1"      // kill eater | count strange kills 
+        }
+        "414" // The Liberty Launcher
+        {
+            "preserve-attributes"   "0"
+            "quality"               "10"
+            "1"                     "488    ;   1"      // rocket specialist 1 (15% rocket speed bonus , max damage on direct, stun target, increase blast radius 15%)
+            "2"                     "100    ;   .75"    // -25% splash radius penalty (counteract rocket specialist 15% bonus)
+            "3"                     "1      ;   .65"    // -15% damage penalty.
+            "4"                     "3      ;   .75"    // -25% clip size penalty
+            "5"                     "6      ;   .75"    // +25% fire rate bonus
+            "6"                     "199    ;   .75"    // +25% holster speed bonus
+            "7"                     "207    ;   .75"    // +25% less blast damage to self bonus
+            "8"                     "214    ;   1"      // kill eater | count strange kills 
+        }
+//        "415" // Reserve Shooter
+//        {
+//            "preserve-attributes"   "0"
+//            "quality"               "10"
+//            "1"                     "45     ;   .6"     // -40% bullets per shot
+//	    "2"			    "215    ;   75"	// z velocity on hit
+//            "3"                     "216    ;   400"    // look velocity on hit
+//            "4"                     "214    ;   1"      // count strange kills
+//        }
+	"415" // Reserve Shooter crit alt
+	{
+	    "preserve-attributes"   "0"
+	    "1"			    "638    ;   1"	// minicrits vs burning from front, crits from behind
+	    "2"			    "267    ;   1"	// crits while rocket jumping
+	    "3"			    "3      ;   .5"	// -50% clip size
+	    "4"		   	    "45	    ;   .4"	// -60% bullets per shot
+	    "5"			    "106    ;   .5"	// +50% accuracy
+	    "6"			    "640    ;   1"	// parachute
+	    "7"			    "812    ;   0.25"	// -75% air strafe control
+	    "8"			    "15	    ;   0"	// no random crits
+	}
+        "416" // Market Gardener
+        {
+            "preserve-attributes"   "0"
+            "quality"               "10"
+            "1"                     "267    ;   1"      // crit while explosive jumping
+            "2"                     "206    ;   1.75"   // +75% melee damage vulnerability
+            "3"                     "275    ;   1"      // cancel falling damage
+	    "4"			    "128    ;   1"	// provide on active
+            "5"                     "214    ;   1"      // count strange kills 
+        }
+        "424" // Tomislav
+        {
+            "preserve-attributes"   "0"
+            "quality"               "10"
+            "1"                     "75     ;   1.5"    // +50% faster move speed while spun up bonus
+            "2"                     "5      ;   1.5"    // -50% fire rate penalty
+            "3"                     "238    ;   1"      // no spin up sounds
+            "4"                     "214    ;   1"      // kill eater | count strange kills 
+        }
+//	"424" // Tomislav alt
+//	{
+//	    "preserve-attributes"   "0"
+//	    "quality"		    "10"
+//	    "1"			    "280    ;   13"	// righteous bison projectile	
+//	    "2"			    "283    ;   1"	// penetration
+//	    "3"			    "411    ;   3"	// 3 degree deviation
+//	    "4"			    "5	    ;   1.75"	// 75% slower fire rate
+//	    "5"			    "214    ;   1"	// count strange kills
+//	    "6"			    "238    ;   1"	// silent spin
+//            "7"                     "214    ;   1"      // count strange kills
+//	}
+//	"424" // Tomislav slowfire alt
+//	{
+//	    "preserve-attributes"   "0"  
+//	    "1"			    "5	    ;   4.5"	// 350% slower fire
+//	    "2"			    "2	    ;   3"	// +200% dmg
+//	    "3"			    "106    ;   0.01"	// +99% accuracy
+//	    "4"			    "77     ;   0.5"	// -50% ammo
+//	    "5"			    "305    ;   1"	// fires tracer
+//	    "6"			    "45     ;   0.5" 	// -50% bullets per shot
+//            "7"                     "214    ;   1"      // count strange kills
+//	}
+	"425" // Family Business
+	{
+	    "preserve-attributes"   "0"
+	    "1"			    "1	    ;   0.85"	// -15% dmg
+	    "2"			    "45	    ;   1.6"	// +60% bullets per shot
+	    "3"			    "97     ;   0.8"	// +20% reload speed
+	    "4"			    "3      ;   .16"	// -84% clip size
+	    "5"			    "106    ;   0.8"	// +20% accuracy
+            "6"                     "214    ;   1"      // count strange kills
+	    "7"                     "324    ;   1.4"      // +40% dmg on successive hits
+	}
+//        "425" // Family business - limited primary
+//        {
+//            "preserve-attributes"   "0"
+//            "quality"               "10"
+//            "1"                     "4      ;   1.5"    // +50% clip size bonus
+//            "2"                     "77     ;   .4"     // -60% primary ammo penalty
+//            "3"                     "214    ;   1"      // kill eater | count strange kills 
+//        }
+//      "425" // Family business - No primary
+//      {
+//        "preserve-attributes"   "0"
+//        "quality"               "10"
+//        "1"                     "4      ;   4"    // 400% clip size bonus
+//	"2"	       	  	"318    ;   0.5"  // 200% faster reload rate
+//        "3"                     "77     ;   0"    // -100% primary ammo penalty
+//        "4"                     "6      ;   .35"  // +65% fire rate bonus
+//	"5"                     "808    ;   1"    // spread increases per shot
+//	"6"			"1      ;   .65"  // -35% damage penalty
+//        "7"                     "214    ;   1"    // kill eater | count strange kills 
+//      }
+        "426" // Eviction Notice
+        {
+            "preserve-attributes"   "0"
+            "quality"               "10"
+            "1"                     "146    ;   1"     // damage applies to sappers
+            "2"                     "137      ;   2"     // +100% dmg to buildings
+            "3"                     "138    ;   0.65"      // -35% dmg to players
+	    "4"			    "252    ;   0.5"	// -50% push from dmg
+	    "5"			    "329    ;   0.5"	// -50% push from airblast
+	    "6"			    "128    ;   1"	// provide on active
+	    "7"			    "15     ;   0"	// no random crits
+            "8"                     "214    ;   1"      // count strange kills
+        }
+	"441" // Cow Mangler 5000
+	{
+	    "preserve-attributes"   "1"
+	    "quality"		    "10"
+	    "1"		    	    "208    ;   1"	// ignite enemies on hit
+	    "2"			    "1	    ;   0.85"	// -15% dmg
+	    "3"			    "74     ;   0.3"	// -70% burn time
+	    "4"			    "214    ;   1"	// count strange kills
+	}
+        "442" // Righteous Bison
+        {
+            "preserve-attributes"   "1"
+            "quality"               "10"
+            "1"                     "360    ;   1"      // damage all connected by medibeam
+            "2"                     "1      ;   .75"    // 25% damage penalty
+            "3"                     "214    ;   1"      // count strange kills
+        }
+	"444" // Mantreads
+	{
+	    "preserve-attributes"   "1"
+            "quality"               "10"
+	    "1"			    "58     ;   1.5"	// +50% blast jump height
+	    "2"			    "214    ;   26"	// count stomp kills
+	}
+        "447" // Disciplinary Action
+        {
+            "preserve-attributes"   "1"
+            "quality"               "10"
+            "1"                     "1      ;   1"      // no damage penalty
+            "2"                     "855    ;   2"      // -2 maxhealth/s while active
+            "3"                     "214    ;   1"      // kill eater | count strange kills 
+	    "4"                     "293    ;   66"     // kill eater 2
+        }
+        "448" // Soda Popper
+        {
+            "preserve-attributes"   "0"
+            "quality"               "10"
+            "1"                     "97     ;   .75"    // -25% reload time bonus
+            "2"                     "6      ;   .5"     // +50% fire rate bonus
+            "3"                     "3      ;   .34"    // -66% clip size penalty
+            "4"                     "43     ;   1"      // reload all at once
+            "5"                     "250    ;   1"      // enable triple jump, minicrit while airborne
+            "6"                     "868    ;   1"      // crits affected by falloff
+            "7"                     "288    ;   1"      // cannot be crit boosted
+            "8"                     "1      ;   .65"    // -35% damage
+            "9"                     "214    ;   1"      // kill eater | count strange kills 
+        }
+//        "449" // Winger
+//        {
+//            "preserve-attributes"   "0"
+//            "quality"               "10"
+//            "1"                     "45     ;   3"      // +2 bullets per shot bonus
+//            "2"                     "298    ;   2"      // +1 bullets consumed per shot penalty
+//            "3"                     "36     ;   3"      // +200% bullet spread penalty
+//            "4"                     "1      ;   .66"    // -33% damage penalty
+//            "5"                     "214    ;   1"      // kill eater | count strange kills 
+//        }
+        "449" // Winger accuracy alt
+        {
+            "preserve-attributes"   "0"
+            "quality"               "10"
+            "1"                     "1      ;   .75"    // -25% damage penalty
+            "2"                     "324    ;   1.3"    // +30% dmg on subsequent shots
+            "3"                     "214    ;   1"      // count strange kills
+	    "4"			    "106    ;   .8"	// +20% accuracy
+	    "5"			    "3	    ;   .67"	// -33% clip size
+	    "6"			    "775    ;   .75"	// -25% dmg vs buildings
+        }
+        "450" // Atomizer
+        {
+            "preserve-attributes"   "0"
+            "quality"               "10"
+            "1"                     "613    ;    5"     // 5 seconds of minicrit boost on kill
+            "2"                     "1      ;    .5"    // -25% damage penalty
+            "3"                     "214    ;   1"      // kill eater | count strange kills 
+        }
+        "452" // Three-Rune Blade
+        {
+            "preserve-attributes"   "0"
+            "quality"               "10"
+            "1"                     "5      ;   1.6"    // +60% fire rate penalty
+            "2"                     "339    ;   1"      // reveal cloaked spies on hit
+            "3"                     "337    ;   10"     // subtract 10 medigun charge on victim on hit
+            "4"                     "214    ;   1"      // kill eater | count strange kills 
+        }
+	"457" // Postal Pummeler
+        {
+            "preserve-attributes"   "0"
+            "quality"               "10"
+            "1"                     "203    ;   1"      // drop health pack on kill
+            "2"                     "109     ;  0"     // no health from packs
+            "3"                     "214    ;   1"      // count strange kills
+        }
+//        "460" // Enforcer
+//        {
+//            "preserve-attributes"   "0"
+//            "quality"               "10"
+//            "1"                     "125    ;   -25"    // -25 max health additive penalty
+//            "2"                     "2    ;   1.2"    // +20% damage bonus
+//        }
+        "460" // Enforcer
+        {
+            "preserve-attributes"   "0"
+            "1"                     "1    ;   0.8"    // -20% damage
+	    "2"			    "410  ;   1.6"	// +60% dmg while disguised
+	    "3"			    "167  ;   0.8"	// -20% dmg taken while disguised
+            "4"                     "214    ;   1"      // count strange kills
+        }
+        "461" // Big Earner
+        {
+            "preserve-attributes"   "0"
+            "quality"               "10"
+            "1"                     "253    ;   -.7"    // -.7 seconds cloaking time bonus
+            "2"                     "82     ;   2.10"   // +110% faster cloak consumption penalty
+            "3"                     "214    ;   1"      // kill eater | count strange kills 
+        }
+        "466" // Maul
+        {
+            "preserve-attributes"   "0"
+            "quality"               "10"
+            "1"                     "146    ;   1"      // can damage sappers
+            "2"                     "226    ;   1"      // honorbound - sheathing without killing costs 50 HP
+            "3"                     "137    ;   2.5"    // +150% damage vs buildings
+            "4"                     "224    ;   .5"     // -50% damage penalty while half dead
+            "5"                     "214    ;   1"      // kill eater | count strange kills 
+        }
+//        "482" // Nessie's Nine Iron
+//        {
+//            "preserve-attributes"   "0"
+//            "1"			    "204    ;  1"	// hit self on miss
+//	    "2"			    "15	    ;  0"	// no random crits
+//	    "3"			    "216    ;  500"	// look velocity on hit
+//	    "4"			    "1      ;  0.85"	// -15% dmg
+//	    "5"			    "781    ;  1"	// is a sword
+//        }
+	"482" // Nessie's Nine Iron jump alt
+	{
+	    "preserve-attributes"   "0"
+	    "1"			    "128    ;  1"	// on active
+	    "2"			    "326    ;  1.7"	// +70% jump height
+	    "3"			    "412    ;  1.2"	// +20% dmg vulnerability
+	    "4"		     	    "246    ;  5"	// x5 charge turn control
+	    "5"			    "781    ;  1"	// is a sword
+	    "6"			    "15     ;  0"	// no random crits
+	    "7"			    "275    ;  1"	// no fall damage
+	    "8"			    "362    ;  1"	// crit from behind
+            "9"                     "214    ;   1"      // count strange kills
+	}
+        "513" // The Original
+        {
+            "preserve-attributes"   "0"
+            "quality"               "10"
+            "1"                     "58     ;   .5"     // -50% rocket jump propulsion
+	    "2"			    "303    ;   -1"	// fires from reserve
+            "3"                     "289    ;   1"      // centerfire projectile
+            "4"                     "214    ;   1"      // count strange kills 
+	    "5"			    "5	    ;   1.35"	// -35% fire rate
+	    "6"			    "421    ;   1"	// no ammo from dispensers active
+        }
+        "525" // Diamondback
+        {
+            "preserve-attributes"   "0"
+            "quality"               "10"
+            "1"                     "296    ;   1"      // saps and backstabs accumulate crits
+            "2"                     "298    ;   2"      // +1 bullet consumed per shot
+            "3"                     "5      ;   2.25"   // +125% fire rate penalty
+            "4"                     "45     ;   2"      // +1 bullet per shot bonus
+            "5"                     "36     ;   3"      // +200% spread penalty
+            "6"                     "1      ;   .75"    // -25% damage penalty
+            "7"                     "214    ;   1"      // kill eater | count strange kills 
+        }
+//        "526" // Machina
+//        {
+//            "preserve-attributes"   "0"
+//            "quality"               "10"
+//            "1"                     "305    ;   1"      // sniper fires tracer
+//            "2"                     "41     ;   1.5"    // 50% faster charge rate
+//            "3"                     "378    ;   .6"     // -40% move speed penalty while scoped
+//            "4"                     "214    ;   1"      // kill eater | count strange kills 
+//        }
+	"526" // Machina alt
+	{
+	    "preserve-attributes"   "0"
+	    "quality"		    "10"
+	    "1"			    "797    ;   1"	// pierces resists
+	    "2"			    "138    ;   0.83"	// -17% dmg vs players
+	    "3"			    "266    ;   1"	// penetrates players
+	    "4"			    "297    ;   1"	// only fire zoomed
+	    "5"			    "305    ;   1"	// tracer
+	    "6"			    "214    ;   1"	// count strange kills
+	}
+	"30665" // Shooting Star
+	{
+	    "preserve-attributes"   "0"
+	    "quality"		    "10"
+	    "1"			    "797    ;   1"	// pierces resists
+	    "2"			    "138    ;   0.83"	// -17% dmg vs players
+	    "3"			    "266    ;   1"	// penetrates players
+	    "4"			    "297    ;   1"	// only fire zoomed
+	    "5"			    "305    ;   1"	// tracer
+	    "6"			    "214    ;   1"	// count strange kills
+	}
+        "527" // Widowmaker
+        {
+            "preserve-attributes"   "1"
+            "quality"               "10"
+            "1"                     "298    ;   45"     // -45 metal per shot penalty
+            "2"                     "45     ;   1.25"   // +25% bullet sper shot bonus
+            "3"                     "36     ;   1.1"    // +10% spread penalty
+            "4"                     "214    ;   1"      // kill eater | count strange kills 
+        }
+        "588" // Pomson 6000
+        {
+            "preserve-attributes"   "0"
+            "quality"               "10"
+            "1"                     "214    ;   1"      // count strange kills
+	    "2"			    "280    ;   12"	// mangler rockets
+	    "3"			    "2      ;   8"	// 48 base damage
+	    "4"			    "207    ;   8"	// 48 dmg to self
+	    "5"			    "58     ;   4"	// 400% push force to self
+	    "6"			    "100    ;   .75"	// -25% blast radius
+        }
+	"589" // Eureka Effect
+	{
+	    "preserve-attributes"   "0"
+	    "quality"		    "10"
+	    "1"			    "343    ;   2"	// 100% slower sentry fire rate
+	    "2"			    "286    ;   0.9"	// -10% building health
+	    "3"			    "92     ;   1.3"	// +30% construction boost
+	    "4"			    "214    ;   3"	// count sentry kills
+	    "5"			    "293    ;   1"	// count strange kills
+	    "6"			    "135    ;   0.4"	// -60% self-damage
+	    "7"		 	    "352    ;   1"	// teleport to spawn
+	    "8"		    	    "790    ;   0.5"	// -50% teleporter cost
+	    "9"		    	    "465    ;   2"	// 100% faster tele build
+	}
+        "593" // Third Degree
+        {
+            "preserve-attributes"   "0"
+            "quality"               "10"
+            "1"                     "220    ;   150"      // 150% health on kill
+            "2"                     "129     ;   -35"   // -35 health per sec
+	    "3"			    "31	    ;   3"	// 3s critboost on kill
+            "4"                     "15    ;   0"      // random crits disabled
+	    "5"			    "128    ;  1"	// provide on active
+            "6"                     "214    ;   1"      // kill eater | count strange kills
+        }
+	"594" // Phlogistinator
+	{
+	    "preserve-attributes"   "1"
+	    "quality"		    "10"
+	    "1"			    "116    ;    1"	// buff banner effect
+	}
+	"595" // Manmelter
+	{
+	    "preserve-attributes"   "1"
+	    "quality"		    "10"
+	    "1"			    "783    ;    40"	// extinguish +60 health
+	    "2"			    "280    ;    13"	// bison
+	    "3"			    "208    ;    1"	// ignite on hit
+	    "4"			    "283    ;    1"	// penetration
+	    "5"			    "74     ;   0.1"	// -90% afterburn time
+	    "6"			    "869    ;    1"	// mini-crit instead of crit
+	}
+        "608" // Bootlegger
+        {
+            "preserve-attributes"   "1"
+            "quality"               "10"
+            "1"                     "259    ;   1"      // boots have falling stomp
+            "2"                     "534    ;   .25"    // -75% airblast resistance bonus
+            "3"                     "812    ;   2"      // +100% increased air control
+	    "4"			    "870    ;   1"	// falling impact radius pushback
+        }
+	"609"  // Scottish Handshake
+	{
+	    "preserve-attributes"   "1"
+	    "quality"		    "10"
+	    "1"			    "526    ;   1.33"	// +33% healing received
+	    "2"			    "412    ;   1.4"	// +40% dmg vulnerability
+	    "3"			    "772    ;   3"	// -200% holster speed
+	    "4"			    "128    ;   1"	// on active
+            "5"                     "214    ;   1"      // count strange kills
+	}
+        "642" // Cozy Camper
+        {
+            "preserve-attributes"   "0"
+            "quality"               "10"
+            "1"                     "26     ;   25"     // max health additive bonus
+            "2"                     "341    ;   10"     // jarate backstabber
+        }
+        "648" // Wrap Assassin
+        {
+            "preserve-attributes"   "0"
+            "quality"               "10"
+            "1"                     "363    ;   1"      // crits no damage
+            "2"                     "346    ;   1"      // bat launches ornaments
+            "3"                     "364    ;   1"      // jingling on walk
+	    "4"			    "358    ;   1"	// crit forces laugh
+	    "5"			    "362    ;   1"	// crit from behind
+	    "6"			    "5	    ;   1.35"	// -35% swing speed
+            "7"                     "214    ;   1"      // count strange kills
+        }
+        "649" // Spy-cicle
+        {
+            "preserve-attributes"   "0"
+            "quality"               "10"
+            "1"                     "347    ;   1"      // victim turns to ice
+            "2"                     "168    ;   1"      // disguise doesn't burn
+            "3"                     "364    ;   1"      // add jingle to movement
+            "4"                     "527    ;   1"      // afterburn immunity
+            "5"                     "26     ;   25"     // 15 health additive bonus
+            "6"                     "214    ;   1"      // kill eater | count strange kills 
+        }
+        "656" // Holiday punch
+        {
+            "preserve-attributes"   "0"
+            "quality"               "10"
+            "1"                     "409    ;   1"      // user forced to laugh on kill
+            "2"                     "2      ;   1.5"    // +25% fire rate bonus
+            "3"                     "128    ;   1"      // provide on active
+            "4"                     "30     ;   1"      // fists have radial buff
+            "5"                     "182    ;   .75"    // slow for .75s
+            "6"                     "326    ;   -1"     // no jumping
+            "7"                     "31     ;   8"      // 8s of critboost on kill
+            "8"                     "214    ;   1"      // kill eater | count strange kills 
+            "7"                     "293    ;   25"      // count tickles
+        }
+        "730" // Beggar's Bazooka
+        {
+            "preserve-attributes"   "0"
+            "1"                     "424    ;   1.5"    // +50% clip size bonus
+            "2"                     "642    ;   1"      // shoots mini rockets
+            "3"                     "100    ;   .5"     // -90% splash radius penalty
+            "4"                     "411    ;   5"      // +5 degree spread angle penalty
+            "5"                     "241    ;   1.2"    // +20% slower reload penalty
+            "6"                     "104    ;   .66"    // -33% projectile speed penalty
+            "7"                     "6      ;   .01"     // +99% fire rate bonus
+            "8"                     "488    ;   2"      // rocket specialist level 2
+            "9"                     "1      ;   .5"     // -50% damage penalty
+            "10"                    "413    ;   1"      // auto fire full clip
+            "11"                    "417    ;   1"      // can overload
+            "12"                    "214    ;   1"      // kill eater | count strange kills 
+        }
+//	"730" // Beggar's heal splash alt
+//	{
+//	    "preserve-attributes"   "1"
+//	    "1"			    "100    ;   0.85"	// -15% blast radius
+//	    "2"			    "411    ;   3"	// 3 degrees projectile deviation
+//	    "3"			    "5	    ;   0.001"	// instant fire
+//	    "4"			    "741    ;   18"	// up to +18 health per rocket
+//	    "5"			    "413    ;   1"	// beggar's load
+//	    "6"			    "417    ;   1"	// can overload
+//	}
+        "739" // Lollichop
+        {
+            "preserve-attributes"   "1"
+            "quality"               "10"
+            "1"                     "358    ;   1"      // critical hits forces victim to laugh
+            "2"                     "363    ;   1"      // critical hits do no damage
+            "3"                     "362    ;   1"      // always crit from behind
+            "4"                     "214    ;   1"      // kill eater | count strange kills 
+        }
+	"740" // Scorch Shot
+	{
+	    "preserve-attributes"   "0"
+	    "quality"		    "10"
+	    "1"			    "25     ;   0.5"	// hidden 50% ammo penalty
+	    "2"			    "1 	    ;   0.25"	// -75% dmg
+	    "3"			    "416    ;   3"	// fires knockback pellets
+	    "4"			    "73     ;   1.2"	// +20% burn duration
+	    "5"			    "71     ;   1.25"	// +25% burn dmg
+            "6"                     "214    ;   1"      // count strange kills
+	    "7"			    "104    ;   0.5"	// -50% projectile speed
+	}
+	"741" // Rainblower
+	{
+	    "preserve-attributes"   "1"
+	    "quality"		    "10"
+	    "1"			    "214    ;   1"	// count strange kills
+	    "2"			    "841    ;   -2700"	// flame gravity
+	    "3"			    "839    ;   20"	// +20 degree flame spread
+	    "4"			    "862    ;   1.1"	// +1.1s flame life
+	    "5"			    "420    ;   2022"	// witnessed 2022 inferno
+            "6"                     "214    ;   1"      // count strange kills
+	}
+//	"741" // Rainblower alt
+//        {
+//            "preserve-attributes"   "1"               
+//            "1"                     "838    ;   1"      // flame particles bounce
+//            "2"                     "837    ;   5"    // 500% reflected flame length
+//            "3"                     "859    ;   10"      // reflect count
+//            "4"                     "214    ;   1"      // count strange kills 
+//	    "5"		      	    "841    ;   -3000"  // flame gravity
+//	    "6"			    "420    ;   2022"	// witnessed 2022 inferno
+//        }
+        "751" // Cleaner's Carbine
+        {
+            "preserve-attributes"   "0"
+            "quality"               "10"
+            "1"                     "216    ;   150"    // apply 150 look velocity on hit
+            "2"                     "215    ;   100"    // apply 100 z velocity on hit
+            "3"                     "3      ;   .8"     // -20% clip size penalty
+            "4"                     "5      ;   1.35"   // -35% fire rate penalty
+            "5"                     "214    ;   1"      // count strange kills 
+	    "6"			    "51     ;   1"	// headshots
+	    "7"			    "868    ;   1"	// crit falloff
+        }
+	"752" // Hitman's Heatmaker
+	{
+	    "preserve-attributes"   "1"
+	    "1"			    "116    ;    5"	// crits on rage
+	    "2"			    "387    ;   35"	// rage on kill
+	    "3"			    "398    ;   15"	// rage on assist
+	    "5"			    "219    ;   1"	// decapitate
+	    "6"			    "96     ;   1.3"	// 30% slower reload
+	    "7"		  	    "392    ;   0.8"	// -20% dmg on bodyshot
+	}
+        "772" // Baby Face Blaster
+        {
+            "preserve-attributes"   "0"
+            "quality"               "10"
+            "1"                     "418    ;   1"      // boost on damage
+            "2"                     "793    ;   1"      // add hype on damage
+            "3"                     "532    ;   .35"    // .35 hype decay per second
+            "4"                     "54     ;   .85"    // -15% move speed penalty
+            "5"                     "535    ;   1.5"    // +50% knockback from damage penalty
+            "6"                     "534    ;   1.5"    // +50% airblast vulnerability penalty
+            "7"                     "214    ;   1"      // kill eater | count strange kills 
+        }
+//        "773" // Pretty Boy's Pocket Pistol
+//        {
+//            "preserve-attributes"   "0"
+//            "quality"               "10"
+//            "1"                     "179    ;   1"      // minicrits become crits
+//            "2"                     "3      ;   .5"     // -50% clip size penalty
+//            "3"                     "214    ;   1"      // kill eater | count strange kills 
+//        }
+	"773" // Pretty Boy's (alt)
+	{
+	    "preserve-attributes"   "0"
+            "quality"               "10"
+            "1"			    "280    ;   2"	// fires rockets
+	    "2"			    "2      ;   3"	// 50 dmg per rocket
+	    "3"			    "5      ;   4"	// 300% slower fire rate
+	    "4"			    "15     ;   1"	// no random crits
+	    "5"			    "3      ;   0.08"	// -92% clip size
+	    "6"			    "214    ;   1"	// count strange kills
+	    "7"			    "58     ;   5"	// +400% self push force
+	    "8"			    "79     ;   0.2"	// -80% reserve ammo
+	    "9"		  	    "207    ;   5"	// +400% self-dmg
+	}
+        "775" // The Escape Plan
+        {
+            "preserve-attributes"   "0"
+            "quality"               "10"
+            "1"                     "69     ;   .25"    // -75% health from healers
+            "2"                     "108    ;   1.75"   // +75% health from packs
+            "3"                     "214    ;   1"      // count strange kills 
+        }
+        "810" // Red Tape Recorder
+        {
+            "preserve-attributes"   "0"
+            "quality"               "10"
+            "1"                     "426    ;   0.65"      // -35% damage to buildings penalty
+            "2"                     "427    ;   5"      // restores 5 hp/s sapping
+            "3"                     "214    ;   24"      // kill eater | count saps
+        }
+        "811" // Huo Long Heater
+        {
+            "preserve-attributes"   "0"
+            "quality"               "10"
+            "1"                     "430    ;   12"     // ring of fire while aiming
+            "2"                     "431    ;   4"      // -4 ammo per second while aiming
+            "3"                     "280    ;   6"      // override projectile to flares
+            "4"                     "103    ;   .75"    // -50% projectile speed
+            "5"                     "5      ;   1.4"    // -40% fire rate penalty
+            "6"                     "868    ;   1"      // crits affected by falloff
+            "7"                     "289    ;   1"      // centerfire projectile
+            "8"                    "411    ;   2"      // +2 degrees projectile deviation
+            "9"                    "77     ;   .75"    // -25% clip size penalty
+            "10"                    "214    ;   1"      // count strange kills
+        }
+        "813" // Neon Annihilator
+        {
+            "preserve-attributes"   "0"
+            "quality"               "10"
+	    "1"			    "216    ;   -800"	// pull target on hit
+            "2"                     "264    ;   2"      // double range
+            "3"                     "138    ;   .8"     // -20% damage vs players
+            "4"                     "214    ;   1"      // count strange kills
+	    "5"			    "146    ;   1"	// damages sappers
+	    "6"			    "851    ;   .8"	// -20% dmg active
+        }
+	"996" // Loose Cannon
+	{
+	    "preserve-attributes"   "1"
+	    "quality"		    "10"
+//	    "1"			    "135    ;   0.75"	// -25% self-damage
+//	    "2"			    "128    ;   1"	// provide on active
+	    "1"			    "303    ;   -1"	// fires from reserve
+	    "2"			    "5	    ;   1.5"	// -50% fire rate
+	    "3"			    "466    ;   0"	// no fuse adjustment
+	    "4"			    "787    ;   .36"	// 1 second fuse
+	    "5"			    "671    ;   1"	// no bounce
+	    "6"			    "477    ;   -5"	// no knockback
+	}
+        "997" // Rescue Ranger
+        {
+            "preserve-attributes"   "0"
+            "quality"               "10"
+            "1"                     "394    ;   .3"     // +70% fire rate bonus
+            "2"                     "1      ;   .5"     // -50% clip size penalty
+            "3"                     "469    ;   100"    // 100 metal to pick up buildings at range
+            "4"                     "710    ;   1"      // beggars style
+            "5"                     "214    ;   1"      // kill eater | count strange kills 
+            "6"                     "474    ;   60"     // heal friendly buildings (+60 health on hit)
+            "7"                     "280    ;   11"     // override projectile to arrows	
+            "8"                     "424    ;   .66"    // -33% clip size penalty			
+	    "9"			    "318    ;	.8"	// faster reload rate by 20%
+        }
+        "998" // Vaccinator
+        {
+            "preserve-attributes"   "1"
+            "quality"               "10"
+            "1"                     "503    ;   .25"    // +25% bullet passive bonus
+            "2"                     "504    ;   .25"    // +25% explosive passive bonus
+            "3"                     "505    ;   .33"    // +25% fire passive bonus
+            "4"                     "506    ;   .8"     // 80% bullet resist active
+            "5"                     "507    ;   .8"     // 80% blast resist active
+            "6"                     "508    ;   1.07"     // 80% fire resist active
+            "7"                     "14     ;   0"      // no overheal decay
+            "8"                     "479    ;   .5"     // -50% reduction in overheal rate penalty
+            "9"                     "214    ;   1"      // kill eater | count strange kills 
+	    "10"                    "293    ;   2"      // kill eater 2
+	    "11"		    "231    ;   1"	// megaheal uber
+        }
+//	"998" // Vaccinator shield alt
+//	{
+//	    "preserve-attributes"   "0"
+//	    "1"			    "499    ;   1"	// projectile shield
+//	    "2"			    "9	    ;  	0"	// no ubercharge rate
+//	    "3"			    "314    ;   -8"	// no ubercharge time
+//	    "4"			    "473    ;   1"	// charge is resists
+//	}
+//	"1092" // Fortified Compound
+//	{
+//	    "preserve-attributes"   "1"
+//	    "quality"		    "10"
+//	    "1"			    "37	    ;   0.5"	// -50% ammo
+//	    "2"		    	    "869    ;   1"	// crits become minicrits
+//	    "3"			    "266    ;   1"	// projectile penetration
+//	    "4"			    "214    ;   1"	// kill eater | count strange
+//	}
+	"1092" // Fortified Compound alt
+	{
+	    "preserve-attributes"   "1"
+	    "quality"		    "10"
+	    "1"			    "280    ;   11"	// fires crossbow bolts
+	    "2"			    "42     ;   1"	// no headshots
+	    "3"			    "474    ;   60"	// heal friendly buildings
+            "4"                     "214    ;   1"      // count strange kills
+	    "5"			    "149    ;   3"	// 3s bleed
+	    "6"			    "266    ;   1"	// projectile penetration
+	}
+        "1098" // Classic
+        {
+            "preserve-attributes"   "0"
+            "quality"               "10"
+            "1"                     "869    ;   1"      // crits become minicrits
+            "2"                     "636    ;   1"      // can headshot without scoping
+            "3"                     "2030   ;   1"      // crit on hard hit
+            "4"                     "647    ;   1"      // fires tracer hidden
+	    "5"			    "395    ;   1"	// explosive headshot [no work]
+	    "6"			    "376    ;   1"	// aiming no flinch
+            "7"                     "144    ;   3"      // lunchbox adds minicrits
+            "8"                     "324    ;   1.5"      // +50% dmg on successive hits
+	    "9"			    "40	    ;   1"	// no move penalty while zoomed
+            "10"                     "214    ;   1"      // count strange kills
+        }
+        "1099" // Tide Turner
+        {
+            "preserve-attributes"   "0"
+            "quality"               "10"
+            "1"                     "639    ;   50"     // full charge control
+            "2"                     "125    ;   -95"    // -95 max HP penalty
+            "3"                     "202    ;   35"     // +35 second charge duration bonus
+            "4"                     "77     ;   .01"    // -99% maxammo primary reduced
+            "5"                     "79     ;   .01"    // -99% maxammo secondary reduced
+            "6"                     "1030   ;    1"     // attack doesn't cancel charge
+            "7"                     "249    ;   1.5"    // faster recharge rate
+            "8"                     "400    ;   1"      // cannot pickup intel
+            "9"                     "214    ;   1"      // kill eater | count strange kills 
+        }
+        "1100" // Bread Bite
+        {
+            "preserve-attributes"   "0"
+            "quality"               "10"
+            "1"                     "442    ;   1.35"   // +35% faster move speed bonus 
+            "2"                     "128    ;   1"      // provide attributes on active on active
+            "3"                     "852    ;   1.5"    // +50% damage vuln penalty
+            "4"                     "772    ;   2.25"   // +125% holster penalty
+            "5"                     "214    ;   1"      // kill eater | count strange kills 
+        }
+        "1101" // B.A.S.E. Jumper
+        {
+            "preserve-attributes"   "1"
+            "quality"               "10"
+            "1"                     "812    ;   2"      // +100% air strafing control
+	    "2"			    "26     ;   25"	// +25 max hp
+        }
+        "1104" // Air Strike
+        {
+            "preserve-attributes"   "0"
+            "quality"               "10"
+            "1"                     "621    ;   .35"    // +65% rocket jump attack rate bonus
+            "2"                     "58     ;   1.33"   // +33% self damage push force
+            "3"                     "644    ;   1"      // clipsize increase on kill
+            "4"                     "100    ;   .5"     // -50% blast radius decrease penalty
+            "5"                     "103    ;   1.8"    // +80% projectile speed increased
+            "6"                     "3      ;   .75"    // -25% clip size penalty
+            "7"                     "207    ;   1.75"   // +60% self damage from explosive jumping
+            "8"                     "214    ;   1"      // kill eater | count strange kills 
+        }
+        "1103" // Back Scatter
+        {
+            "preserve-attributes"   "0"
+            "quality"               "10"
+            "1"                     "77     ;   0.25"     // -75% ammo
+            "2"                     "619    ;   1"      // closerange backattack minicrits
+            "3"                     "214    ;   1"      // count strange kills
+	    "4"			    "303    ;   -1"	// fires from reserve
+	    "5"			    "299    ;   6.7"	// recover 6.7% of damage as ammo
+        }
+//	"1103" // Back Scatter alt
+//	{
+//	    "preserve-attributes"   "0"
+//	    "quality"	 	    "10"
+//	    "1"			    "619    ;    1"	// closerange backattack minicrits
+//	    "2"			    "36     ;    1.2"	// -20% accuracy
+//	    "3"			    "3	    ;    0.5"	// -50% clip
+//	    "4"			    "250    ;    1"	// +1 air jump
+//	    "5"			    "128    ;    1"	// provide on active
+//	    "6"			    "214    ;    1"	// count strange kills
+//	}
+        "1150" // Quickiebomb Launcher
+        {
+            "preserve-attributes"   "1"
+            "quality"               "10"
+            "1"                     "394    ;   .3"     // +70% fire rate bonus
+            "2"                     "710    ;   1"      // beggar's load
+            "3"                     "89     ;   -6"     // -6 max pipebombs out
+            "4"                     "102    ;   .5"     // speed penalty
+            "5"                    "214    ;   1"      // kill eater | count strange kills 
+            "6"                    "670    ;   0.01"      // +99% faster charge
+	    "7"			   "727    ;   0.75"	// reverse bonus dmg on charge
+	    "8"			   "2	   ;   1.18"	// reverse damage penalty
+	    "9"			   "711    ;   1"	// auto fires full clip
+        }
+        "1151" // Iron Bomber
+        {
+            "preserve-attributes"   "1"
+            "quality"               "10"
+            "1"                     "394    ;   .3"     // +70% fire rate bonus
+            "2"                     "710    ;   1"      // beggar's load
+            "3"                     "424    ;   .75"    // -25% clip size penalty
+            "4"                     "411    ;   6"      // +500% spread angle penalty
+            "5"                     "711    ;   0"      // auto fires full clip [off]
+            "6"                     "214    ;   1"      // kill eater | count strange kills 
+	    "7"			    "100    ;   1.17"	// reverse blast radius penalty
+        }
+//        "1153" // Panic Attack
+//        {
+//            "preserve-attributes"   "0"
+//            "quality"               "10"
+//            "1"                     "736    ;   3"      // +3s of speed boost on kill
+//            "2"                     "651    ;   .40"    // up to +60% faster fire rate with reduced health
+//            "3"                     "3      ;   .66"     // -33% clip size penalty
+//            "4"                     "240    ;   .75"    // +25% faster reloading while being healed
+//            "5"                     "772    ;   1.5"    // +50% longer holster penalty
+//            "6"                     "214    ;   1"      // kill eater | count strange kills 
+//        }
+	"1153" // Panic Attack spam alt
+	{
+	    "preserve-attributes"   "0"
+	    "1"			    "3      ;   0.5"	// -50% clip size
+	    "2"			    "97     ;   0.33"	// +66% reload speed
+	    "3"			    "711    ;   1"	// auto fires clip
+	    "4"			    "547    ;   0.5"	// +50% deploy speed
+	    "5"			    "709    ;   3"	// spread increases with lost hp
+	    "6"			    "1	    ;   0.8"	// -20% damage
+            "7"                     "214    ;   1"      // count strange kills
+	}
+	"1178" // Dragon's Fury
+	{
+	    "preserve-attributes"   "1"
+	    "1"			    "832    ;   1"	// airblast speeds players
+	    "2"			    "114    ;   1"	// mini-crit airborne
+	    "3"			    "255    ;   0.5"	// -50% push force
+            "4"                     "214    ;   1"      // count strange kills
+	}
+        "1179" // Thermal Thruster
+        {
+            "preserve-attributes"   "1"
+            "quality"               "10"
+            "1"                     "872    ;   1"      // can thrust again while in flight
+            "2"                     "870    ;   1"      // high range impact cause pushback
+            "3"                     "214    ;   1"      // count strange kills
+        }
+	"1180" // Gas Passer
+	{
+	    "preserve-attributes"   "0"
+	    "1"			    "801    ;  22"	// 22s charge
+	    "2"			    "856    ;  1"	// recharge naturally
+            "3"                     "214    ;   1"      // count strange kills
+	}
+	"1181" // Hot Hand
+	{
+	    "preserve-attributes"   "0"
+	    "1"			    "204    ;  1"	// hit self on miss
+	    "2"			    "263    ;  1.5"	// +50% melee bounds
+	    "3"			    "781    ;  1"	// is a sword
+	    "4"			    "369    ;  1"	// tickle hot hand enemies
+	    "5"			    "1	    ;  0.8"	// -20% dmg
+	    "6"			    "699    ;  1.5"	// 1.5x hand size
+	    "7"			    "128    ;  1"	// on active
+	    "8"			    "737    ;  3"	// 3s speedboost on hit
+	    "9"			    "251    ;  1"	// whip teammates
+            "10"                     "214    ;   1"      // count strange kills
+	}
+	"1190" // Second Banana
+	{
+	    "preserve-attributes"   "0"
+	    "1"			    "201    ;  1.5"	// eat 50% quicker
+	    "2"			    "128    ;  1"	// on active
+            "3"                     "214    ;   50"      // count eaten
+	}
+    }
+}

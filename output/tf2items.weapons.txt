@@ -1,0 +1,368 @@
+"custom_weapons_v3" 
+{
+	"STEAM_0:0:65817896" // 2uh
+	{
+		// Template: toadstool_topper
+		"146" // Toadstool Topper
+		{
+		    "preserve-attributes"   "1"
+		    "quality"               "5"
+		    "1"                     "134    ;   101"      // Mystery to Everyone
+		}
+
+	}
+	"STEAM_0:0:27384306" // Gamemaster
+	{
+		// Template: brown_bomber
+		"671" // Brown Bomber
+		{
+		    "preserve-attributes"   "0"
+		    "quality"               "7"
+		    "1"                     "142    ;   9031664" // set item tint rgb | baby blue
+		    "2"                     "261    ;   9031664" // set item tint rgb | baby blue
+		    "3"                     "134    ;   99"      // nebula
+		    "4"                     "370    ;   91"      // abduction
+		}
+
+		// Template: saxton_hale
+		"277" // Saxton Hale
+		{
+		    "preserve-attributes"   "0"
+		    "quality"               "7"
+		    "1"                     "134    ;   13"      // unusual effect, burning flames
+		    "2"                     "370    ;   29"      // unusual effect, stormy storm
+		}
+
+		// Template: shotgun
+		"7" // Engineer Shotgun
+		{
+		    "preserve-attributes"   "1"
+		    "quality"               "7"
+		    "1"                     "134    ;   4"      // unusual effect, community sparkle
+		    "2"                     "370    ;   701"    // unusual effect, hot
+		    "3"                     "2053   ;   1"      // is festivized
+		    "4"                     "2025   ;   1"      // is australium
+		    "5"                     "2014   ;   1"      // team sheen
+		    "6"                     "2013   ;   2006"   // singularity  
+		    "7"                     "2025   ;   3"      // professional killstreak active           
+		}
+		"199" // Upgradeable Shotgun
+		{
+		    "preserve-attributes"   "1"
+		    "quality"               "7"
+		    "1"                     "134    ;   4"      // unusual effect, community sparkle
+		    "2"                     "370    ;   701"    // unusual effect, hot
+		    "3"                     "2053   ;   1"      // is festivized
+		    "4"                     "2025   ;   1"      // is australium
+		    "5"                     "2014   ;   1"      // team sheen
+		    "6"                     "2013   ;   2006"   // singularity  
+		    "7"                     "2025   ;   3"      // professional killstreak active           
+		}
+
+		// Template: support_spurs
+		"30629" // Support Spurs
+		{
+		    "preserve-attributes"   "0"
+		    "quality"               "7"
+		    "1"                     "142    ;   9031664" // set item tint rgb | baby blue
+		    "2"                     "261    ;   9031664" // set item tint rgb | baby blue
+		}
+
+		// Template: wrench
+		"7" // Stock Wrench
+		{
+		    "preserve-attributes"   "1"
+		    "quality"               "7"
+		    "1"                     "134    ;   4"      // unusual effect, community sparkle
+		    "2"                     "370    ;   703"    // unusual effect, cool
+		    "3"                     "150    ;   1"      // turn to gold
+		    "4"                     "542    ;   1"      // item style override, australium
+		    "5"                     "2053   ;   1"      // is festivized
+		    "6"                     "2025   ;   1"      // is australium
+		    "7"                     "2014   ;   6"      // villianous violet sheen
+		    "8"                     "2013   ;   2003"   // cerebral discharge 
+		    "9"                     "2025   ;   3"      // professional killstreak active
+		}
+		"197" // Upgradeable Wrench
+		{
+		    "preserve-attributes"   "1"
+		    "quality"               "7"
+		    "1"                     "134    ;   4"      // unusual effect, community sparkle
+		    "2"                     "370    ;   703"    // unusual effect, cool
+		    "3"                     "150    ;   1"      // turn to gold
+		    "4"                     "542    ;   1"      // item style override, australium
+		    "5"                     "2053   ;   1"      // is festivized
+		    "6"                     "2025   ;   1"      // is australium
+		    "7"                     "2014   ;   6"      // villianous violet sheen
+		    "8"                     "2013   ;   2003"   // cerebral discharge 
+		    "9"                     "2025   ;   3"      // professional killstreak active
+		}
+
+	}
+	"STEAM_0:0:65817896" // Luigi
+	{
+		// Template: hustlers_hallmark
+		"146" // Hustler's Hallmark
+		{
+		    "preserve-attributes"   "1"
+		    "quality"               "5"
+		    "1"                     "134    ;   117"      // ring of fire
+		}
+
+		// Template: breakneck_baggies
+		"30068" // Breakneck Baggies
+		{
+		    "preserve-attributes"   "1"
+		    "quality"               "5"
+		    "1"                     "134    ;   117"      // ring of fire
+		}
+
+		// Template: dead_of_night
+		"30309" // Dead of Night
+		{
+		    "preserve-attributes"   "1"
+		    "quality"               "5"
+		    "1"                     "134    ;   117"      // ring of fire
+		}
+
+	}
+	"*" // global
+	{
+		// Template: bat
+		"0" // Bat
+		{
+			"preserve-attributes"   "1"
+			"1"			    "216    ;  650"		// look velocity on hit
+			"2"			    "204    ;  1"		// hit self on miss
+			"3"			    "1	    ;  0.75"	// -25% damage
+			"4"			    "15     ;  0"		// no random crits
+		}
+		"190" // Upgradeable Bat
+		{
+			"preserve-attributes"   "1"
+			"1"			    "216    ;  650"		// look velocity on hit
+			"2"			    "204    ;  1"		// hit self on miss
+			"3"			    "1	    ;  0.75"	// -25% damage
+			"4"			    "15     ;  0"		// no random crits
+		}
+		"30667" // Batsaber
+		{
+			"preserve-attributes"   "1"
+			"1"			    "216    ;  650"		// look velocity on hit
+			"2"			    "204    ;  1"		// hit self on miss
+			"3"			    "1	    ;  0.75"	// -25% damage
+			"4"			    "15     ;  0"		// no random crits
+		}
+
+		// Template: rocket_launcher
+		"18" // Stock Rocket Launcher
+		{
+		    "preserve-attributes"   "1"
+		    "1"             "245    ;   1.4"    // up to +40% dmg at full rage
+		    "2"             "1      ;   0.85"   // -15% dmg
+		    "3"             "243    ;   -7" // -7% rage on hit
+		    "4"             "214    ;   1"  // count strange kills
+		}
+		"205" // Upgradeable Rocket Launcher
+		{
+		    "preserve-attributes"   "1"
+		    "1"             "245    ;   1.4"    // up to +40% dmg at full rage
+		    "2"             "1      ;   0.85"   // -15% dmg
+		    "3"             "243    ;   -7" // -7% rage on hit
+		    "4"             "214    ;   1"  // count strange kills
+		}
+		"658" // Festive Rocket Launcher
+		{
+		    "preserve-attributes"   "1"
+		    "1"             "245    ;   1.4"    // up to +40% dmg at full rage
+		    "2"             "1      ;   0.85"   // -15% dmg
+		    "3"             "243    ;   -7" // -7% rage on hit
+		    "4"             "214    ;   1"  // count strange kills
+		}
+		"800" // Silver Botkiller Rocket Launcher
+		{
+		    "preserve-attributes"   "1"
+		    "1"             "245    ;   1.4"    // up to +40% dmg at full rage
+		    "2"             "1      ;   0.85"   // -15% dmg
+		    "3"             "243    ;   -7" // -7% rage on hit
+		    "4"             "214    ;   1"  // count strange kills
+		}
+		"809" // Gold Botkiller Rocket Launcher
+		{
+		    "preserve-attributes"   "1"
+		    "1"             "245    ;   1.4"    // up to +40% dmg at full rage
+		    "2"             "1      ;   0.85"   // -15% dmg
+		    "3"             "243    ;   -7" // -7% rage on hit
+		    "4"             "214    ;   1"  // count strange kills
+		}
+		"889" // Rust Botkiller Rocket Launcher
+		{
+		    "preserve-attributes"   "1"
+		    "1"             "245    ;   1.4"    // up to +40% dmg at full rage
+		    "2"             "1      ;   0.85"   // -15% dmg
+		    "3"             "243    ;   -7" // -7% rage on hit
+		    "4"             "214    ;   1"  // count strange kills
+		}
+		"898" // Blood Botkiller Rocket Launcher
+		{
+		    "preserve-attributes"   "1"
+		    "1"             "245    ;   1.4"    // up to +40% dmg at full rage
+		    "2"             "1      ;   0.85"   // -15% dmg
+		    "3"             "243    ;   -7" // -7% rage on hit
+		    "4"             "214    ;   1"  // count strange kills
+		}
+		"907" // Carbon Botkiller Rocket Launcher
+		{
+		    "preserve-attributes"   "1"
+		    "1"             "245    ;   1.4"    // up to +40% dmg at full rage
+		    "2"             "1      ;   0.85"   // -15% dmg
+		    "3"             "243    ;   -7" // -7% rage on hit
+		    "4"             "214    ;   1"  // count strange kills
+		}
+		"916" // Diamond Botkiller Rocket Launcher
+		{
+		    "preserve-attributes"   "1"
+		    "1"             "245    ;   1.4"    // up to +40% dmg at full rage
+		    "2"             "1      ;   0.85"   // -15% dmg
+		    "3"             "243    ;   -7" // -7% rage on hit
+		    "4"             "214    ;   1"  // count strange kills
+		}
+		"965" // Silver Botkiller Mk. II Rocket Launcher
+		{
+		    "preserve-attributes"   "1"
+		    "1"             "245    ;   1.4"    // up to +40% dmg at full rage
+		    "2"             "1      ;   0.85"   // -15% dmg
+		    "3"             "243    ;   -7" // -7% rage on hit
+		    "4"             "214    ;   1"  // count strange kills
+		}
+		"974" // Gold Botkiller Mk. II Rocket Launcher
+		{
+		    "preserve-attributes"   "1"
+		    "1"             "245    ;   1.4"    // up to +40% dmg at full rage
+		    "2"             "1      ;   0.85"   // -15% dmg
+		    "3"             "243    ;   -7" // -7% rage on hit
+		    "4"             "214    ;   1"  // count strange kills
+		}
+		"15006" // Woodland Warrior Rocket Launcher
+		{
+		    "preserve-attributes"   "1"
+		    "1"             "245    ;   1.4"    // up to +40% dmg at full rage
+		    "2"             "1      ;   0.85"   // -15% dmg
+		    "3"             "243    ;   -7" // -7% rage on hit
+		    "4"             "214    ;   1"  // count strange kills
+		}
+		"15014" // Sand Cannon Rocket Launcher
+		{
+		    "preserve-attributes"   "1"
+		    "1"             "245    ;   1.4"    // up to +40% dmg at full rage
+		    "2"             "1      ;   0.85"   // -15% dmg
+		    "3"             "243    ;   -7" // -7% rage on hit
+		    "4"             "214    ;   1"  // count strange kills
+		}
+		"15028" // American Pastoral Rocket Launcher
+		{
+		    "preserve-attributes"   "1"
+		    "1"             "245    ;   1.4"    // up to +40% dmg at full rage
+		    "2"             "1      ;   0.85"   // -15% dmg
+		    "3"             "243    ;   -7" // -7% rage on hit
+		    "4"             "214    ;   1"  // count strange kills
+		}
+		"15043" // Smalltown Bringdown Rocket Launcher
+		{
+		    "preserve-attributes"   "1"
+		    "1"             "245    ;   1.4"    // up to +40% dmg at full rage
+		    "2"             "1      ;   0.85"   // -15% dmg
+		    "3"             "243    ;   -7" // -7% rage on hit
+		    "4"             "214    ;   1"  // count strange kills
+		}
+		"15052" // Shell Shocker Rocket Launcher
+		{
+		    "preserve-attributes"   "1"
+		    "1"             "245    ;   1.4"    // up to +40% dmg at full rage
+		    "2"             "1      ;   0.85"   // -15% dmg
+		    "3"             "243    ;   -7" // -7% rage on hit
+		    "4"             "214    ;   1"  // count strange kills
+		}
+		"15057" // Aqua Marine Rocket Launcher
+		{
+		    "preserve-attributes"   "1"
+		    "1"             "245    ;   1.4"    // up to +40% dmg at full rage
+		    "2"             "1      ;   0.85"   // -15% dmg
+		    "3"             "243    ;   -7" // -7% rage on hit
+		    "4"             "214    ;   1"  // count strange kills
+		}
+		"15081" // Autumn Rocket Launcher
+		{
+		    "preserve-attributes"   "1"
+		    "1"             "245    ;   1.4"    // up to +40% dmg at full rage
+		    "2"             "1      ;   0.85"   // -15% dmg
+		    "3"             "243    ;   -7" // -7% rage on hit
+		    "4"             "214    ;   1"  // count strange kills
+		}
+		"15104" // Blue Mew Rocket Launcher
+		{
+		    "preserve-attributes"   "1"
+		    "1"             "245    ;   1.4"    // up to +40% dmg at full rage
+		    "2"             "1      ;   0.85"   // -15% dmg
+		    "3"             "243    ;   -7" // -7% rage on hit
+		    "4"             "214    ;   1"  // count strange kills
+		}
+		"15105" // Brain Candy Rocket Launcher
+		{
+		    "preserve-attributes"   "1"
+		    "1"             "245    ;   1.4"    // up to +40% dmg at full rage
+		    "2"             "1      ;   0.85"   // -15% dmg
+		    "3"             "243    ;   -7" // -7% rage on hit
+		    "4"             "214    ;   1"  // count strange kills
+		}
+		"15129" // Coffin Nail Rocket Launcher
+		{
+		    "preserve-attributes"   "1"
+		    "1"             "245    ;   1.4"    // up to +40% dmg at full rage
+		    "2"             "1      ;   0.85"   // -15% dmg
+		    "3"             "243    ;   -7" // -7% rage on hit
+		    "4"             "214    ;   1"  // count strange kills
+		}
+		"15130" // High Roller Rocket Launcher
+		{
+		    "preserve-attributes"   "1"
+		    "1"             "245    ;   1.4"    // up to +40% dmg at full rage
+		    "2"             "1      ;   0.85"   // -15% dmg
+		    "3"             "243    ;   -7" // -7% rage on hit
+		    "4"             "214    ;   1"  // count strange kills
+		}
+		"15150" // Warhawk Rocket Launcher
+		{
+		    "preserve-attributes"   "1"
+		    "1"             "245    ;   1.4"    // up to +40% dmg at full rage
+		    "2"             "1      ;   0.85"   // -15% dmg
+		    "3"             "243    ;   -7" // -7% rage on hit
+		    "4"             "214    ;   1"  // count strange kills
+		}
+
+		// Template: machina
+		"526" // Machina
+		{
+		    "preserve-attributes"   "0"
+		    "quality"               "10"
+		    "1"                     "797    ;   1"      // pierces resists
+		    "2"                     "138    ;   0.83"   // -17% dmg vs players
+		    "3"                     "266    ;   1"      // penetrates players
+		    "4"                     "297    ;   1"      // only fire zoomed
+		    "5"                     "305    ;   1"      // tracer
+		    "6"                     "214    ;   1"      // count strange kills
+		}
+		"30665" // Shooting Star
+		{
+		    "preserve-attributes"   "0"
+		    "quality"               "10"
+		    "1"                     "797    ;   1"      // pierces resists
+		    "2"                     "138    ;   0.83"   // -17% dmg vs players
+		    "3"                     "266    ;   1"      // penetrates players
+		    "4"                     "297    ;   1"      // only fire zoomed
+		    "5"                     "305    ;   1"      // tracer
+		    "6"                     "214    ;   1"      // count strange kills
+		}
+
+	}
+}
